@@ -91,7 +91,7 @@ nsys: all mk-profile-dir
 	nsys profile -o $(PROFILE_DIR)/$(TEST_CASE)-cuda --force-overwrite=true $(BUILD_DIR)/$(TEST_CASE)-cuda $(PARAMETERS)
 	@echo ""
 	@echo "OpenMP Target:"
-	nsys profile -o $(PROFILE_DIR)/$(TEST_CASE)-cuda --force-overwrite=true $(BUILD_DIR)/$(TEST_CASE)-omp-target $(PARAMETERS)
+	nsys profile -o $(PROFILE_DIR)/$(TEST_CASE)-omp-target --force-overwrite=true $(BUILD_DIR)/$(TEST_CASE)-omp-target $(PARAMETERS)
 	@echo ""
 
 
@@ -101,7 +101,7 @@ nsys-stats: all mk-profile-dir
 	nsys profile -o /tmp/$(TEST_CASE)-cuda --force-overwrite=true --stats=true $(BUILD_DIR)/$(TEST_CASE)-cuda $(PARAMETERS)
 	@echo ""
 	@echo "OpenMP Target:"
-	nsys profile -o /tmp/$(TEST_CASE)-cuda --force-overwrite=true --stats=true $(BUILD_DIR)/$(TEST_CASE)-omp-target $(PARAMETERS)
+	nsys profile -o /tmp/$(TEST_CASE)-omp-target --force-overwrite=true --stats=true $(BUILD_DIR)/$(TEST_CASE)-omp-target $(PARAMETERS)
 	@echo ""
 
 
@@ -113,7 +113,7 @@ ncu: all mk-profile-dir
 	ncu -o $(PROFILE_DIR)/$(TEST_CASE)-cuda --force-overwrite --launch-skip=$(NWARM) --launch-count=1 --set=full $(BUILD_DIR)/$(TEST_CASE)-cuda $(PARAMETERS)
 	@echo ""
 	@echo "OpenMP Target:"
-	ncu -o $(PROFILE_DIR)/$(TEST_CASE)-cuda --force-overwrite --launch-skip=$(NWARM) --launch-count=1 --set=full $(BUILD_DIR)/$(TEST_CASE)-omp-target $(PARAMETERS)
+	ncu -o $(PROFILE_DIR)/$(TEST_CASE)-omp-target --force-overwrite --launch-skip=$(NWARM) --launch-count=1 --set=full $(BUILD_DIR)/$(TEST_CASE)-omp-target $(PARAMETERS)
 	@echo ""
 
 
