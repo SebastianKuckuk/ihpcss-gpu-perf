@@ -1,0 +1,82 @@
+  #cells / #it:  67108864 / 10
+  elapsed time:  10.8797 ms
+  per iteration: 1.08797 ms
+  MLUP/s:        61682.9
+  bandwidth:     986.927 GB/s
+  compute:       246.732 GFLOP/s
+  Final residual is 23.7894
+Generating '/tmp/1833496.alex/nsys-report-dacc.qdstrm'
+[1/8] [0%                          ] stencil-2d-omp-target.nsys-rep[1/8] [0%                          ] stencil-2d-omp-target.nsys-rep[1/8] [=15%                        ] stencil-2d-omp-target.nsys-rep[1/8] [=======36%                  ] stencil-2d-omp-target.nsys-rep[1/8] [============57%             ] stencil-2d-omp-target.nsys-rep[1/8] [=============58%            ] stencil-2d-omp-target.nsys-rep[1/8] [=============59%            ] stencil-2d-omp-target.nsys-rep[1/8] [=============60%            ] stencil-2d-omp-target.nsys-rep[1/8] [==============62%           ] stencil-2d-omp-target.nsys-rep[1/8] [==============63%           ] stencil-2d-omp-target.nsys-rep[1/8] [==============64%           ] stencil-2d-omp-target.nsys-rep[1/8] [===============66%          ] stencil-2d-omp-target.nsys-rep[1/8] [=================73%        ] stencil-2d-omp-target.nsys-rep[1/8] [========================97% ] stencil-2d-omp-target.nsys-rep[1/8] [========================100%] stencil-2d-omp-target.nsys-rep[1/8] [========================100%] stencil-2d-omp-target.nsys-rep
+[2/8] [0%                          ] stencil-2d-omp-target.sqlite[2/8] [1%                          ] stencil-2d-omp-target.sqlite[2/8] [2%                          ] stencil-2d-omp-target.sqlite[2/8] [3%                          ] stencil-2d-omp-target.sqlite[2/8] [4%                          ] stencil-2d-omp-target.sqlite[2/8] [5%                          ] stencil-2d-omp-target.sqlite[2/8] [6%                          ] stencil-2d-omp-target.sqlite[2/8] [7%                          ] stencil-2d-omp-target.sqlite[2/8] [8%                          ] stencil-2d-omp-target.sqlite[2/8] [9%                          ] stencil-2d-omp-target.sqlite[2/8] [10%                         ] stencil-2d-omp-target.sqlite[2/8] [11%                         ] stencil-2d-omp-target.sqlite[2/8] [12%                         ] stencil-2d-omp-target.sqlite[2/8] [13%                         ] stencil-2d-omp-target.sqlite[2/8] [14%                         ] stencil-2d-omp-target.sqlite[2/8] [=15%                        ] stencil-2d-omp-target.sqlite[2/8] [=16%                        ] stencil-2d-omp-target.sqlite[2/8] [=17%                        ] stencil-2d-omp-target.sqlite[2/8] [==18%                       ] stencil-2d-omp-target.sqlite[2/8] [==19%                       ] stencil-2d-omp-target.sqlite[2/8] [==20%                       ] stencil-2d-omp-target.sqlite[2/8] [==21%                       ] stencil-2d-omp-target.sqlite[2/8] [===22%                      ] stencil-2d-omp-target.sqlite[2/8] [===23%                      ] stencil-2d-omp-target.sqlite[2/8] [===24%                      ] stencil-2d-omp-target.sqlite[2/8] [====25%                     ] stencil-2d-omp-target.sqlite[2/8] [====26%                     ] stencil-2d-omp-target.sqlite[2/8] [====27%                     ] stencil-2d-omp-target.sqlite[2/8] [====28%                     ] stencil-2d-omp-target.sqlite[2/8] [=====29%                    ] stencil-2d-omp-target.sqlite[2/8] [=====30%                    ] stencil-2d-omp-target.sqlite[2/8] [=====31%                    ] stencil-2d-omp-target.sqlite[2/8] [=====32%                    ] stencil-2d-omp-target.sqlite[2/8] [======33%                   ] stencil-2d-omp-target.sqlite[2/8] [======34%                   ] stencil-2d-omp-target.sqlite[2/8] [======35%                   ] stencil-2d-omp-target.sqlite[2/8] [=======36%                  ] stencil-2d-omp-target.sqlite[2/8] [=======37%                  ] stencil-2d-omp-target.sqlite[2/8] [=======38%                  ] stencil-2d-omp-target.sqlite[2/8] [=======39%                  ] stencil-2d-omp-target.sqlite[2/8] [========40%                 ] stencil-2d-omp-target.sqlite[2/8] [========41%                 ] stencil-2d-omp-target.sqlite[2/8] [========42%                 ] stencil-2d-omp-target.sqlite[2/8] [=========43%                ] stencil-2d-omp-target.sqlite[2/8] [=========44%                ] stencil-2d-omp-target.sqlite[2/8] [=========45%                ] stencil-2d-omp-target.sqlite[2/8] [=========46%                ] stencil-2d-omp-target.sqlite[2/8] [==========47%               ] stencil-2d-omp-target.sqlite[2/8] [==========48%               ] stencil-2d-omp-target.sqlite[2/8] [==========49%               ] stencil-2d-omp-target.sqlite[2/8] [===========50%              ] stencil-2d-omp-target.sqlite[2/8] [===========51%              ] stencil-2d-omp-target.sqlite[2/8] [===========52%              ] stencil-2d-omp-target.sqlite[2/8] [===========53%              ] stencil-2d-omp-target.sqlite[2/8] [============54%             ] stencil-2d-omp-target.sqlite[2/8] [============55%             ] stencil-2d-omp-target.sqlite[2/8] [============56%             ] stencil-2d-omp-target.sqlite[2/8] [============57%             ] stencil-2d-omp-target.sqlite[2/8] [=============58%            ] stencil-2d-omp-target.sqlite[2/8] [=============59%            ] stencil-2d-omp-target.sqlite[2/8] [=============60%            ] stencil-2d-omp-target.sqlite[2/8] [==============61%           ] stencil-2d-omp-target.sqlite[2/8] [==============62%           ] stencil-2d-omp-target.sqlite[2/8] [==============63%           ] stencil-2d-omp-target.sqlite[2/8] [==============64%           ] stencil-2d-omp-target.sqlite[2/8] [===============65%          ] stencil-2d-omp-target.sqlite[2/8] [===============66%          ] stencil-2d-omp-target.sqlite[2/8] [===============67%          ] stencil-2d-omp-target.sqlite[2/8] [================68%         ] stencil-2d-omp-target.sqlite[2/8] [================69%         ] stencil-2d-omp-target.sqlite[2/8] [================70%         ] stencil-2d-omp-target.sqlite[2/8] [================71%         ] stencil-2d-omp-target.sqlite[2/8] [=================72%        ] stencil-2d-omp-target.sqlite[2/8] [=================73%        ] stencil-2d-omp-target.sqlite[2/8] [=================74%        ] stencil-2d-omp-target.sqlite[2/8] [==================75%       ] stencil-2d-omp-target.sqlite[2/8] [==================76%       ] stencil-2d-omp-target.sqlite[2/8] [==================77%       ] stencil-2d-omp-target.sqlite[2/8] [==================78%       ] stencil-2d-omp-target.sqlite[2/8] [===================79%      ] stencil-2d-omp-target.sqlite[2/8] [===================80%      ] stencil-2d-omp-target.sqlite[2/8] [===================81%      ] stencil-2d-omp-target.sqlite[2/8] [===================82%      ] stencil-2d-omp-target.sqlite[2/8] [====================83%     ] stencil-2d-omp-target.sqlite[2/8] [====================84%     ] stencil-2d-omp-target.sqlite[2/8] [====================85%     ] stencil-2d-omp-target.sqlite[2/8] [=====================86%    ] stencil-2d-omp-target.sqlite[2/8] [=====================87%    ] stencil-2d-omp-target.sqlite[2/8] [=====================88%    ] stencil-2d-omp-target.sqlite[2/8] [=====================89%    ] stencil-2d-omp-target.sqlite[2/8] [======================90%   ] stencil-2d-omp-target.sqlite[2/8] [======================91%   ] stencil-2d-omp-target.sqlite[2/8] [======================92%   ] stencil-2d-omp-target.sqlite[2/8] [=======================93%  ] stencil-2d-omp-target.sqlite[2/8] [=======================94%  ] stencil-2d-omp-target.sqlite[2/8] [=======================95%  ] stencil-2d-omp-target.sqlite[2/8] [=======================96%  ] stencil-2d-omp-target.sqlite[2/8] [========================97% ] stencil-2d-omp-target.sqlite[2/8] [========================98% ] stencil-2d-omp-target.sqlite[2/8] [========================99% ] stencil-2d-omp-target.sqlite[2/8] [========================100%] stencil-2d-omp-target.sqlite[2/8] [========================100%] stencil-2d-omp-target.sqlite
+[3/8] Executing 'nvtx_sum' stats report
+[4/8] Executing 'osrt_sum' stats report
+
+ Time (%)  Total Time (ns)  Num Calls   Avg (ns)    Med (ns)   Min (ns)  Max (ns)   StdDev (ns)           Name         
+ --------  ---------------  ---------  ----------  ----------  --------  ---------  -----------  ----------------------
+     67.9        553174726         29  19074990.6  10107934.0      2084  100163083   28190062.3  poll                  
+     23.5        191632588        550    348422.9     26679.0       261   33551218    1627021.9  ioctl                 
+      6.7         54492650         24   2270527.1   1500662.0       291   20936702    4508779.9  sem_timedwait         
+      1.5         12446477         45    276588.4      2515.0      1012   12206980    1818914.7  fopen                 
+      0.1          1051043         28     37537.3      8442.0      6012     566866     105517.2  mmap64                
+      0.1           960605          4    240151.3    252000.0    155592     301013      63079.9  pthread_create        
+      0.0           236696         61      3880.3      3306.0       561      18497       3226.6  open64                
+      0.0           199015         19     10474.5      6503.0      2004      34078       9436.3  mmap                  
+      0.0           172757          1    172757.0    172757.0    172757     172757          0.0  pthread_cond_wait     
+      0.0            71584         10      7158.4      3397.0      2135      23807       8126.1  munmap                
+      0.0            56654         42      1348.9       842.0       381      11293       1883.3  fclose                
+      0.0            45542          7      6506.0      4559.0       902      16954       5996.6  open                  
+      0.0            42435         29      1463.3        40.0        40      41153       7633.4  fgets                 
+      0.0            34949         15      2329.9      2064.0       922       6193       1181.7  read                  
+      0.0            31664          7      4523.4        40.0        40      31092      11716.0  fflush                
+      0.0            30923         62       498.8       391.0       110       2685        447.6  fcntl                 
+      0.0            29410         12      2450.8      2535.5       972       4078        813.1  write                 
+      0.0            24499          3      8166.3      9810.0      1503      13186       6012.4  pipe2                 
+      0.0            21985          2     10992.5     10992.5      8327      13658       3769.6  fread                 
+      0.0            18215         24       759.0        45.5        40      11362       2362.4  fwrite                
+      0.0            15632          2      7816.0      7816.0      2866      12766       7000.4  socket                
+      0.0            15160          1     15160.0     15160.0     15160      15160          0.0  connect               
+      0.0             8607          2      4303.5      4303.5      1744       6863       3619.7  pthread_cond_broadcast
+      0.0             4439          1      4439.0      4439.0      4439       4439          0.0  bind                  
+      0.0             4067          3      1355.7      1192.0      1172       1703        301.0  fopen64               
+      0.0             3166          8       395.8       275.5       230       1043        274.3  dup                   
+      0.0              972          1       972.0       972.0       972        972          0.0  listen                
+      0.0              831          1       831.0       831.0       831        831          0.0  putc                  
+
+[5/8] Executing 'cuda_api_sum' stats report
+
+ Time (%)  Total Time (ns)  Num Calls   Avg (ns)    Med (ns)   Min (ns)  Max (ns)  StdDev (ns)          Name        
+ --------  ---------------  ---------  ----------  ----------  --------  --------  -----------  --------------------
+     42.0         85713379          2  42856689.5  42856689.5  42693527  43019852     230746.6  cuMemcpyDtoHAsync_v2
+     39.5         80599874          2  40299937.0  40299937.0  39763377  40836497     758810.4  cuMemcpyHtoDAsync_v2
+     10.3         21116322          1  21116322.0  21116322.0  21116322  21116322          0.0  cuMemAllocManaged   
+      6.4         12996490         14    928320.7   1082233.5      2585   1084613     391624.5  cuStreamSynchronize 
+      1.5          3111004          4    777751.0    497246.5      9669   2106842     949469.0  cuMemAlloc_v2       
+      0.3           534652          1    534652.0    534652.0    534652    534652          0.0  cuMemAllocHost_v2   
+      0.0            75960         12      6330.0      3567.0      3066     33948       8731.5  cuLaunchKernel      
+      0.0            43828          1     43828.0     43828.0     43828     43828          0.0  cuModuleLoadDataEx  
+      0.0             3217          4       804.3       711.5       291      1503        525.0  cuCtxSetCurrent     
+      0.0             3016          1      3016.0      3016.0      3016      3016          0.0  cuInit              
+
+[6/8] Executing 'cuda_gpu_kern_sum' stats report
+
+ Time (%)  Total Time (ns)  Instances  Avg (ns)   Med (ns)   Min (ns)  Max (ns)  StdDev (ns)                 Name               
+ --------  ---------------  ---------  ---------  ---------  --------  --------  -----------  ----------------------------------
+    100.0         12920893         12  1076741.1  1076379.0   1075931   1081146       1405.6  nvkernel__Z6jacobimmPKdPd_F247L8_2
+
+[7/8] Executing 'cuda_gpu_mem_time_sum' stats report
+
+ Time (%)  Total Time (ns)  Count   Avg (ns)    Med (ns)   Min (ns)  Max (ns)  StdDev (ns)      Operation     
+ --------  ---------------  -----  ----------  ----------  --------  --------  -----------  ------------------
+     51.5         85520736      2  42760368.0  42760368.0  42600257  42920479     226431.1  [CUDA memcpy DtoH]
+     48.5         80503099      2  40251549.5  40251549.5  39723344  40779755     746995.4  [CUDA memcpy HtoD]
+
+[8/8] Executing 'cuda_gpu_mem_size_sum' stats report
+
+ Total (MB)  Count  Avg (MB)  Med (MB)  Min (MB)  Max (MB)  StdDev (MB)      Operation     
+ ----------  -----  --------  --------  --------  --------  -----------  ------------------
+   1073.742      2   536.871   536.871   536.871   536.871        0.000  [CUDA memcpy DtoH]
+   1073.742      2   536.871   536.871   536.871   536.871        0.000  [CUDA memcpy HtoD]
+
+Generated:
+    /tmp/stencil-2d-omp-target.nsys-rep
+    /tmp/stencil-2d-omp-target.sqlite

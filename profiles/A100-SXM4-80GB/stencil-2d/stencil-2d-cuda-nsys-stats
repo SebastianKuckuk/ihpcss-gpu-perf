@@ -1,0 +1,80 @@
+  #cells / #it:  67108864 / 10
+  elapsed time:  7.15489 ms
+  per iteration: 0.715489 ms
+  MLUP/s:        93794.5
+  bandwidth:     1500.71 GB/s
+  compute:       375.178 GFLOP/s
+  Final residual is 23.7894
+Generating '/tmp/1833496.alex/nsys-report-1b03.qdstrm'
+[1/8] [0%                          ] stencil-2d-cuda.nsys-rep[1/8] [0%                          ] stencil-2d-cuda.nsys-rep[1/8] [=15%                        ] stencil-2d-cuda.nsys-rep[1/8] [=======36%                  ] stencil-2d-cuda.nsys-rep[1/8] [=============58%            ] stencil-2d-cuda.nsys-rep[1/8] [=============59%            ] stencil-2d-cuda.nsys-rep[1/8] [=============60%            ] stencil-2d-cuda.nsys-rep[1/8] [==============61%           ] stencil-2d-cuda.nsys-rep[1/8] [==============62%           ] stencil-2d-cuda.nsys-rep[1/8] [==============63%           ] stencil-2d-cuda.nsys-rep[1/8] [===============65%          ] stencil-2d-cuda.nsys-rep[1/8] [===============67%          ] stencil-2d-cuda.nsys-rep[1/8] [==================75%       ] stencil-2d-cuda.nsys-rep[1/8] [========================98% ] stencil-2d-cuda.nsys-rep[1/8] [========================100%] stencil-2d-cuda.nsys-rep[1/8] [========================100%] stencil-2d-cuda.nsys-rep
+[2/8] [0%                          ] stencil-2d-cuda.sqlite[2/8] [1%                          ] stencil-2d-cuda.sqlite[2/8] [2%                          ] stencil-2d-cuda.sqlite[2/8] [3%                          ] stencil-2d-cuda.sqlite[2/8] [4%                          ] stencil-2d-cuda.sqlite[2/8] [5%                          ] stencil-2d-cuda.sqlite[2/8] [6%                          ] stencil-2d-cuda.sqlite[2/8] [7%                          ] stencil-2d-cuda.sqlite[2/8] [8%                          ] stencil-2d-cuda.sqlite[2/8] [9%                          ] stencil-2d-cuda.sqlite[2/8] [10%                         ] stencil-2d-cuda.sqlite[2/8] [11%                         ] stencil-2d-cuda.sqlite[2/8] [12%                         ] stencil-2d-cuda.sqlite[2/8] [13%                         ] stencil-2d-cuda.sqlite[2/8] [14%                         ] stencil-2d-cuda.sqlite[2/8] [=15%                        ] stencil-2d-cuda.sqlite[2/8] [=16%                        ] stencil-2d-cuda.sqlite[2/8] [=17%                        ] stencil-2d-cuda.sqlite[2/8] [==18%                       ] stencil-2d-cuda.sqlite[2/8] [==19%                       ] stencil-2d-cuda.sqlite[2/8] [==20%                       ] stencil-2d-cuda.sqlite[2/8] [==21%                       ] stencil-2d-cuda.sqlite[2/8] [===22%                      ] stencil-2d-cuda.sqlite[2/8] [===23%                      ] stencil-2d-cuda.sqlite[2/8] [===24%                      ] stencil-2d-cuda.sqlite[2/8] [====25%                     ] stencil-2d-cuda.sqlite[2/8] [====26%                     ] stencil-2d-cuda.sqlite[2/8] [====27%                     ] stencil-2d-cuda.sqlite[2/8] [====28%                     ] stencil-2d-cuda.sqlite[2/8] [=====29%                    ] stencil-2d-cuda.sqlite[2/8] [=====30%                    ] stencil-2d-cuda.sqlite[2/8] [=====31%                    ] stencil-2d-cuda.sqlite[2/8] [=====32%                    ] stencil-2d-cuda.sqlite[2/8] [======33%                   ] stencil-2d-cuda.sqlite[2/8] [======34%                   ] stencil-2d-cuda.sqlite[2/8] [======35%                   ] stencil-2d-cuda.sqlite[2/8] [=======36%                  ] stencil-2d-cuda.sqlite[2/8] [=======37%                  ] stencil-2d-cuda.sqlite[2/8] [=======38%                  ] stencil-2d-cuda.sqlite[2/8] [=======39%                  ] stencil-2d-cuda.sqlite[2/8] [========40%                 ] stencil-2d-cuda.sqlite[2/8] [========41%                 ] stencil-2d-cuda.sqlite[2/8] [========42%                 ] stencil-2d-cuda.sqlite[2/8] [=========43%                ] stencil-2d-cuda.sqlite[2/8] [=========44%                ] stencil-2d-cuda.sqlite[2/8] [=========45%                ] stencil-2d-cuda.sqlite[2/8] [=========46%                ] stencil-2d-cuda.sqlite[2/8] [==========47%               ] stencil-2d-cuda.sqlite[2/8] [==========48%               ] stencil-2d-cuda.sqlite[2/8] [==========49%               ] stencil-2d-cuda.sqlite[2/8] [===========50%              ] stencil-2d-cuda.sqlite[2/8] [===========51%              ] stencil-2d-cuda.sqlite[2/8] [===========52%              ] stencil-2d-cuda.sqlite[2/8] [===========53%              ] stencil-2d-cuda.sqlite[2/8] [============54%             ] stencil-2d-cuda.sqlite[2/8] [============55%             ] stencil-2d-cuda.sqlite[2/8] [============56%             ] stencil-2d-cuda.sqlite[2/8] [============57%             ] stencil-2d-cuda.sqlite[2/8] [=============58%            ] stencil-2d-cuda.sqlite[2/8] [=============59%            ] stencil-2d-cuda.sqlite[2/8] [=============60%            ] stencil-2d-cuda.sqlite[2/8] [==============61%           ] stencil-2d-cuda.sqlite[2/8] [==============62%           ] stencil-2d-cuda.sqlite[2/8] [==============63%           ] stencil-2d-cuda.sqlite[2/8] [==============64%           ] stencil-2d-cuda.sqlite[2/8] [===============65%          ] stencil-2d-cuda.sqlite[2/8] [===============66%          ] stencil-2d-cuda.sqlite[2/8] [===============67%          ] stencil-2d-cuda.sqlite[2/8] [================68%         ] stencil-2d-cuda.sqlite[2/8] [================69%         ] stencil-2d-cuda.sqlite[2/8] [================70%         ] stencil-2d-cuda.sqlite[2/8] [================71%         ] stencil-2d-cuda.sqlite[2/8] [=================72%        ] stencil-2d-cuda.sqlite[2/8] [=================73%        ] stencil-2d-cuda.sqlite[2/8] [=================74%        ] stencil-2d-cuda.sqlite[2/8] [==================75%       ] stencil-2d-cuda.sqlite[2/8] [==================76%       ] stencil-2d-cuda.sqlite[2/8] [==================77%       ] stencil-2d-cuda.sqlite[2/8] [==================78%       ] stencil-2d-cuda.sqlite[2/8] [===================79%      ] stencil-2d-cuda.sqlite[2/8] [===================80%      ] stencil-2d-cuda.sqlite[2/8] [===================81%      ] stencil-2d-cuda.sqlite[2/8] [===================82%      ] stencil-2d-cuda.sqlite[2/8] [====================83%     ] stencil-2d-cuda.sqlite[2/8] [====================84%     ] stencil-2d-cuda.sqlite[2/8] [====================85%     ] stencil-2d-cuda.sqlite[2/8] [=====================86%    ] stencil-2d-cuda.sqlite[2/8] [=====================87%    ] stencil-2d-cuda.sqlite[2/8] [=====================88%    ] stencil-2d-cuda.sqlite[2/8] [=====================89%    ] stencil-2d-cuda.sqlite[2/8] [======================90%   ] stencil-2d-cuda.sqlite[2/8] [======================91%   ] stencil-2d-cuda.sqlite[2/8] [======================92%   ] stencil-2d-cuda.sqlite[2/8] [=======================93%  ] stencil-2d-cuda.sqlite[2/8] [=======================94%  ] stencil-2d-cuda.sqlite[2/8] [=======================95%  ] stencil-2d-cuda.sqlite[2/8] [=======================96%  ] stencil-2d-cuda.sqlite[2/8] [========================97% ] stencil-2d-cuda.sqlite[2/8] [========================98% ] stencil-2d-cuda.sqlite[2/8] [========================99% ] stencil-2d-cuda.sqlite[2/8] [========================100%] stencil-2d-cuda.sqlite[2/8] [========================100%] stencil-2d-cuda.sqlite
+[3/8] Executing 'nvtx_sum' stats report
+[4/8] Executing 'osrt_sum' stats report
+
+ Time (%)  Total Time (ns)  Num Calls   Avg (ns)    Med (ns)   Min (ns)  Max (ns)   StdDev (ns)           Name         
+ --------  ---------------  ---------  ----------  ----------  --------  ---------  -----------  ----------------------
+     58.8        683179919         18  37954439.9  17912698.0      1303  100222743   43859095.4  poll                  
+     36.3        421445884        562    749903.7     27490.0       260   90671264    5673657.1  ioctl                 
+      4.5         52301689         22   2377349.5      7234.5      2505   26085258    7659220.2  mmap                  
+      0.1          1367330         28     48833.2      7896.0      5702     865715     161703.5  mmap64                
+      0.1          1083681          4    270920.3    201598.5    144780     535704     183893.5  pthread_create        
+      0.0           565774         10     56577.4     47530.0     37154     142235      30466.1  sem_timedwait         
+      0.0           288566         45      6412.6      3147.0      1263      38717       8652.8  fopen                 
+      0.0           219668         61      3601.1      3226.0       681      11353       2387.4  open64                
+      0.0            88698         14      6335.6      3101.5      1584      24358       6683.0  munmap                
+      0.0            78818          1     78818.0     78818.0     78818      78818          0.0  pthread_cond_wait     
+      0.0            60718         42      1445.7       942.0       440       9259       1630.9  fclose                
+      0.0            48036         29      1656.4        60.0        50      46444       8613.9  fgets                 
+      0.0            39840          7      5691.4      4619.0      1012      12496       3703.4  open                  
+      0.0            27539         62       444.2       376.0       120       2455        324.7  fcntl                 
+      0.0            24859         15      1657.3      1102.0       802       5771       1463.3  read                  
+      0.0            22484         12      1873.7      1758.5       711       3948        861.4  write                 
+      0.0            21663          2     10831.5     10831.5      5521      16142       7510.2  socket                
+      0.0            20591          7      2941.6        40.0        30      20191       7606.5  fflush                
+      0.0            20340          2     10170.0     10170.0      8446      11894       2438.1  fread                 
+      0.0            19880          1     19880.0     19880.0     19880      19880          0.0  connect               
+      0.0            19550          3      6516.7      8858.0      1223       9469       4594.6  pipe2                 
+      0.0            16680         24       695.0        40.5        40      10751       2232.0  fwrite                
+      0.0             4308          3      1436.0      1503.0      1302       1503        116.0  fopen64               
+      0.0             3998          2      1999.0      1999.0       611       3387       1962.9  pthread_cond_broadcast
+      0.0             2633          8       329.1       270.5       220        561        136.5  dup                   
+      0.0             1954          1      1954.0      1954.0      1954       1954          0.0  bind                  
+      0.0             1093          1      1093.0      1093.0      1093       1093          0.0  listen                
+      0.0              491          1       491.0       491.0       491        491          0.0  putc                  
+
+[5/8] Executing 'cuda_api_sum' stats report
+
+ Time (%)  Total Time (ns)  Num Calls   Avg (ns)     Med (ns)    Min (ns)  Max (ns)   StdDev (ns)           Name         
+ --------  ---------------  ---------  -----------  -----------  --------  ---------  -----------  ----------------------
+     70.7        398175440          2  199087720.0  199087720.0  95100399  303075041  147060279.7  cudaMallocHost        
+     14.9         83823532          4   20955883.0   20958736.0  20290998   21615062     605761.9  cudaMemcpy            
+     12.4         69772217          2   34886108.5   34886108.5  34789610   34982607     136469.5  cudaFreeHost          
+      1.5          8525763          2    4262881.5    4262881.5   1408242    7117521    4037069.9  cudaDeviceSynchronize 
+      0.3          1605387          2     802693.5     802693.5    302677    1302710     707130.1  cudaMalloc            
+      0.2          1386629          2     693314.5     693314.5    615894     770735     109489.1  cudaFree              
+      0.0           217546         12      18128.8       3156.5      2966     178047      50370.3  cudaLaunchKernel      
+      0.0             1633          1       1633.0       1633.0      1633       1633          0.0  cuModuleGetLoadingMode
+
+[6/8] Executing 'cuda_gpu_kern_sum' stats report
+
+ Time (%)  Total Time (ns)  Instances  Avg (ns)  Med (ns)  Min (ns)  Max (ns)  StdDev (ns)                               Name                             
+ --------  ---------------  ---------  --------  --------  --------  --------  -----------  --------------------------------------------------------------
+    100.0          8541842         12  711820.2  710588.5    703261    722748       5643.3  jacobi(unsigned long, unsigned long, const double *, double *)
+
+[7/8] Executing 'cuda_gpu_mem_time_sum' stats report
+
+ Time (%)  Total Time (ns)  Count   Avg (ns)    Med (ns)   Min (ns)  Max (ns)  StdDev (ns)      Operation     
+ --------  ---------------  -----  ----------  ----------  --------  --------  -----------  ------------------
+     51.2         42873279      2  21436639.5  21436639.5  21272368  21600911     232315.0  [CUDA memcpy DtoH]
+     48.8         40837610      2  20418805.0  20418805.0  20275765  20561845     202289.1  [CUDA memcpy HtoD]
+
+[8/8] Executing 'cuda_gpu_mem_size_sum' stats report
+
+ Total (MB)  Count  Avg (MB)  Med (MB)  Min (MB)  Max (MB)  StdDev (MB)      Operation     
+ ----------  -----  --------  --------  --------  --------  -----------  ------------------
+   1073.742      2   536.871   536.871   536.871   536.871        0.000  [CUDA memcpy DtoH]
+   1073.742      2   536.871   536.871   536.871   536.871        0.000  [CUDA memcpy HtoD]
+
+Generated:
+    /tmp/stencil-2d-cuda.nsys-rep
+    /tmp/stencil-2d-cuda.sqlite

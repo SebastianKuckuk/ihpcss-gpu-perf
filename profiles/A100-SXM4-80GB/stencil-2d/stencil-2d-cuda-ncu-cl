@@ -1,0 +1,71 @@
+==PROF== Connected to process 725487 (/home/hpc/iwia/iwia71/ihpcss-gpu-perf/build/stencil-2d/stencil-2d-cuda)
+==PROF== Profiling "jacobi" - 0 (1/1): 0%....50%....100% - 10 passes
+  #cells / #it:  67108864 / 10
+  elapsed time:  2247.82 ms
+  per iteration: 224.782 ms
+  MLUP/s:        298.551
+  bandwidth:     4.77681 GB/s
+  compute:       1.1942 GFLOP/s
+  Final residual is 23.7894
+==PROF== Disconnected from process 725487
+[725487] stencil-2d-cuda@127.0.0.1
+  jacobi(unsigned long, unsigned long, const double *, double *) (512, 512, 1)x(16, 16, 1), Context 1, Stream 7, Device 0, CC 8.0
+    Section: GPU Speed Of Light Throughput
+    ----------------------- ------------- ------------
+    Metric Name               Metric Unit Metric Value
+    ----------------------- ------------- ------------
+    DRAM Frequency          cycle/nsecond         1.59
+    SM Frequency            cycle/nsecond         1.15
+    Elapsed Cycles                  cycle       786653
+    Memory Throughput                   %        76.16
+    DRAM Throughput                     %        76.16
+    Duration                      usecond       683.84
+    L1/TEX Cache Throughput             %        35.72
+    L2 Cache Throughput                 %        88.91
+    SM Active Cycles                cycle    781470.87
+    Compute (SM) Throughput             %        39.59
+    ----------------------- ------------- ------------
+
+    OPT   Memory is more heavily utilized than Compute: Look at the Memory Workload Analysis section to identify the    
+          DRAM bottleneck. Check memory replay (coalescing) metrics to make sure you're efficiently utilizing the       
+          bytes transferred. Also consider whether it is possible to do more work per memory access (kernel fusion) or  
+          whether there are values you can (re)compute.                                                                 
+
+    Section: Launch Statistics
+    -------------------------------- --------------- ---------------
+    Metric Name                          Metric Unit    Metric Value
+    -------------------------------- --------------- ---------------
+    Block Size                                                   256
+    Function Cache Configuration                     CachePreferNone
+    Grid Size                                                 262144
+    Registers Per Thread             register/thread              18
+    Shared Memory Configuration Size           Kbyte           32.77
+    Driver Shared Memory Per Block       Kbyte/block            1.02
+    Dynamic Shared Memory Per Block       byte/block               0
+    Static Shared Memory Per Block        byte/block               0
+    Threads                                   thread        67108864
+    Waves Per SM                                              303.41
+    -------------------------------- --------------- ---------------
+
+    Section: Occupancy
+    ------------------------------- ----------- ------------
+    Metric Name                     Metric Unit Metric Value
+    ------------------------------- ----------- ------------
+    Block Limit SM                        block           32
+    Block Limit Registers                 block           10
+    Block Limit Shared Mem                block           32
+    Block Limit Warps                     block            8
+    Theoretical Active Warps per SM        warp           64
+    Theoretical Occupancy                     %          100
+    Achieved Occupancy                        %        89.12
+    Achieved Active Warps Per SM           warp        57.03
+    ------------------------------- ----------- ------------
+
+    OPT   Estimated Speedup: 10.88%                                                                                     
+          This kernel's theoretical occupancy is not impacted by any block limit. The difference between calculated     
+          theoretical (100.0%) and measured achieved occupancy (89.1%) can be the result of warp scheduling overheads   
+          or workload imbalances during the kernel execution. Load imbalances can occur between warps within a block    
+          as well as across blocks of the same kernel. See the CUDA Best Practices Guide                                
+          (https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/index.html#occupancy) for more details on           
+          optimizing occupancy.                                                                                         
+
