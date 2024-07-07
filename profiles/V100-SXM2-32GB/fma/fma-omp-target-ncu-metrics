@@ -1,0 +1,19 @@
+==PROF== Connected to process 3438 (/jet/home/skuckuk/ihpcss-gpu-perf/build/fma/fma-omp-target)
+==PROF== Profiling "nvkernel__Z3fmamPKfPf_F247L9_1" - 1 of 1: 0%....50%....100% - 4 passes
+  #cells / #it:  1048576 / 10
+  elapsed time:  2297.21 ms
+  per iteration: 229.721 ms
+  MLUP/s:        4.56457
+  bandwidth:     0.0365166 GB/s
+  compute:       9572.6 GFLOP/s
+  Passed result check
+==PROF== Disconnected from process 3438
+[3438] fma-omp-target@127.0.0.1
+  nvkernel__Z3fmamPKfPf_F247L9_1, 2024-Jul-06 22:12:00, Context 1, Stream 13
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    gpu__time_duration.sum                                                         msecond                         170.18
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum                               inst                  1099511627776
+    smsp__sass_thread_inst_executed_op_ffma_pred_on.sum.per_second            inst/nsecond                        6461.05
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
