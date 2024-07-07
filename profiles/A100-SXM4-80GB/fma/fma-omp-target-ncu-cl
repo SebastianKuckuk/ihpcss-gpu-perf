@@ -1,0 +1,64 @@
+==PROF== Connected to process 713242 (/home/hpc/iwia/iwia71/ihpcss-gpu-perf/build/fma/fma-omp-target)
+==PROF== Profiling "nvkernel__Z3fmamPKfPf_F247L9_2" - 0 (1/1): 0%....50%....100% - 11 passes
+  #cells / #it:  1048576 / 10
+  elapsed time:  4676.89 ms
+  per iteration: 467.689 ms
+  MLUP/s:        2.24203
+  bandwidth:     0.0179363 GB/s
+  compute:       4701.89 GFLOP/s
+  Passed result check
+==PROF== Disconnected from process 713242
+[713242] fma-omp-target@127.0.0.1
+  nvkernel__Z3fmamPKfPf_F247L9_2 (8192, 1, 1)x(128, 1, 1), Context 1, Stream 13, Device 0, CC 8.0
+    Section: GPU Speed Of Light Throughput
+    ----------------------- ------------- ------------
+    Metric Name               Metric Unit Metric Value
+    ----------------------- ------------- ------------
+    DRAM Frequency          cycle/nsecond         1.59
+    SM Frequency            cycle/nsecond         1.15
+    Elapsed Cycles                  cycle    161955502
+    Memory Throughput                   %         0.01
+    DRAM Throughput                     %         0.00
+    Duration                      msecond       140.32
+    L1/TEX Cache Throughput             %         0.00
+    L2 Cache Throughput                 %         0.01
+    SM Active Cycles                cycle 161471280.68
+    Compute (SM) Throughput             %        98.29
+    ----------------------- ------------- ------------
+
+    INF   The kernel is utilizing greater than 80.0% of the available compute or memory performance of the device. To   
+          further improve performance, work will likely need to be shifted from the most utilized to another unit.      
+          Start by analyzing workloads in the Compute Workload Analysis section.                                        
+
+    Section: Launch Statistics
+    -------------------------------- --------------- ---------------
+    Metric Name                          Metric Unit    Metric Value
+    -------------------------------- --------------- ---------------
+    Block Size                                                   128
+    Function Cache Configuration                     CachePreferNone
+    Grid Size                                                   8192
+    Registers Per Thread             register/thread              30
+    Shared Memory Configuration Size           Kbyte           32.77
+    Driver Shared Memory Per Block       Kbyte/block            1.02
+    Dynamic Shared Memory Per Block       byte/block               0
+    Static Shared Memory Per Block        byte/block               0
+    Threads                                   thread         1048576
+    Waves Per SM                                                4.74
+    -------------------------------- --------------- ---------------
+
+    Section: Occupancy
+    ------------------------------- ----------- ------------
+    Metric Name                     Metric Unit Metric Value
+    ------------------------------- ----------- ------------
+    Block Limit SM                        block           32
+    Block Limit Registers                 block           16
+    Block Limit Shared Mem                block           32
+    Block Limit Warps                     block           16
+    Theoretical Active Warps per SM        warp           64
+    Theoretical Occupancy                     %          100
+    Achieved Occupancy                        %        90.17
+    Achieved Active Warps Per SM           warp        57.71
+    ------------------------------- ----------- ------------
+
+    INF   This kernel's theoretical occupancy is not impacted by any block limit.                                       
+

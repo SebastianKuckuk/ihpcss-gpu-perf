@@ -1,0 +1,82 @@
+  #cells / #it:  1048576 / 10
+  elapsed time:  1156.55 ms
+  per iteration: 115.655 ms
+  MLUP/s:        9.06642
+  bandwidth:     0.0725314 GB/s
+  compute:       19013.7 GFLOP/s
+  Passed result check
+Generating '/tmp/1831472.alex/nsys-report-4a56.qdstrm'
+[1/8] [0%                          ] fma-omp-target.nsys-rep[1/8] [0%                          ] fma-omp-target.nsys-rep[1/8] [====27%                     ] fma-omp-target.nsys-rep[1/8] [========40%                 ] fma-omp-target.nsys-rep[1/8] [===========53%              ] fma-omp-target.nsys-rep[1/8] [============54%             ] fma-omp-target.nsys-rep[1/8] [============55%             ] fma-omp-target.nsys-rep[1/8] [============56%             ] fma-omp-target.nsys-rep[1/8] [=============58%            ] fma-omp-target.nsys-rep[1/8] [=================72%        ] fma-omp-target.nsys-rep[1/8] [=================73%        ] fma-omp-target.nsys-rep[1/8] [=================74%        ] fma-omp-target.nsys-rep[1/8] [==================75%       ] fma-omp-target.nsys-rep[1/8] [========================97% ] fma-omp-target.nsys-rep[1/8] [========================98% ] fma-omp-target.nsys-rep[1/8] [========================100%] fma-omp-target.nsys-rep[1/8] [========================100%] fma-omp-target.nsys-rep
+[2/8] [0%                          ] fma-omp-target.sqlite[2/8] [1%                          ] fma-omp-target.sqlite[2/8] [2%                          ] fma-omp-target.sqlite[2/8] [3%                          ] fma-omp-target.sqlite[2/8] [4%                          ] fma-omp-target.sqlite[2/8] [5%                          ] fma-omp-target.sqlite[2/8] [6%                          ] fma-omp-target.sqlite[2/8] [7%                          ] fma-omp-target.sqlite[2/8] [8%                          ] fma-omp-target.sqlite[2/8] [9%                          ] fma-omp-target.sqlite[2/8] [10%                         ] fma-omp-target.sqlite[2/8] [11%                         ] fma-omp-target.sqlite[2/8] [12%                         ] fma-omp-target.sqlite[2/8] [13%                         ] fma-omp-target.sqlite[2/8] [14%                         ] fma-omp-target.sqlite[2/8] [=15%                        ] fma-omp-target.sqlite[2/8] [=16%                        ] fma-omp-target.sqlite[2/8] [=17%                        ] fma-omp-target.sqlite[2/8] [==18%                       ] fma-omp-target.sqlite[2/8] [==19%                       ] fma-omp-target.sqlite[2/8] [==20%                       ] fma-omp-target.sqlite[2/8] [==21%                       ] fma-omp-target.sqlite[2/8] [===22%                      ] fma-omp-target.sqlite[2/8] [===23%                      ] fma-omp-target.sqlite[2/8] [===24%                      ] fma-omp-target.sqlite[2/8] [====25%                     ] fma-omp-target.sqlite[2/8] [====26%                     ] fma-omp-target.sqlite[2/8] [====27%                     ] fma-omp-target.sqlite[2/8] [====28%                     ] fma-omp-target.sqlite[2/8] [=====29%                    ] fma-omp-target.sqlite[2/8] [=====30%                    ] fma-omp-target.sqlite[2/8] [=====31%                    ] fma-omp-target.sqlite[2/8] [=====32%                    ] fma-omp-target.sqlite[2/8] [======33%                   ] fma-omp-target.sqlite[2/8] [======34%                   ] fma-omp-target.sqlite[2/8] [======35%                   ] fma-omp-target.sqlite[2/8] [=======36%                  ] fma-omp-target.sqlite[2/8] [=======37%                  ] fma-omp-target.sqlite[2/8] [=======38%                  ] fma-omp-target.sqlite[2/8] [=======39%                  ] fma-omp-target.sqlite[2/8] [========40%                 ] fma-omp-target.sqlite[2/8] [========41%                 ] fma-omp-target.sqlite[2/8] [========42%                 ] fma-omp-target.sqlite[2/8] [=========43%                ] fma-omp-target.sqlite[2/8] [=========44%                ] fma-omp-target.sqlite[2/8] [=========45%                ] fma-omp-target.sqlite[2/8] [=========46%                ] fma-omp-target.sqlite[2/8] [==========47%               ] fma-omp-target.sqlite[2/8] [==========48%               ] fma-omp-target.sqlite[2/8] [==========49%               ] fma-omp-target.sqlite[2/8] [===========50%              ] fma-omp-target.sqlite[2/8] [===========51%              ] fma-omp-target.sqlite[2/8] [===========52%              ] fma-omp-target.sqlite[2/8] [===========53%              ] fma-omp-target.sqlite[2/8] [============54%             ] fma-omp-target.sqlite[2/8] [============55%             ] fma-omp-target.sqlite[2/8] [============56%             ] fma-omp-target.sqlite[2/8] [============57%             ] fma-omp-target.sqlite[2/8] [=============58%            ] fma-omp-target.sqlite[2/8] [=============59%            ] fma-omp-target.sqlite[2/8] [=============60%            ] fma-omp-target.sqlite[2/8] [==============61%           ] fma-omp-target.sqlite[2/8] [==============62%           ] fma-omp-target.sqlite[2/8] [==============63%           ] fma-omp-target.sqlite[2/8] [==============64%           ] fma-omp-target.sqlite[2/8] [===============65%          ] fma-omp-target.sqlite[2/8] [===============66%          ] fma-omp-target.sqlite[2/8] [===============67%          ] fma-omp-target.sqlite[2/8] [================68%         ] fma-omp-target.sqlite[2/8] [================69%         ] fma-omp-target.sqlite[2/8] [================70%         ] fma-omp-target.sqlite[2/8] [================71%         ] fma-omp-target.sqlite[2/8] [=================72%        ] fma-omp-target.sqlite[2/8] [=================73%        ] fma-omp-target.sqlite[2/8] [=================74%        ] fma-omp-target.sqlite[2/8] [==================75%       ] fma-omp-target.sqlite[2/8] [==================76%       ] fma-omp-target.sqlite[2/8] [==================77%       ] fma-omp-target.sqlite[2/8] [==================78%       ] fma-omp-target.sqlite[2/8] [===================79%      ] fma-omp-target.sqlite[2/8] [===================80%      ] fma-omp-target.sqlite[2/8] [===================81%      ] fma-omp-target.sqlite[2/8] [===================82%      ] fma-omp-target.sqlite[2/8] [====================83%     ] fma-omp-target.sqlite[2/8] [====================84%     ] fma-omp-target.sqlite[2/8] [====================85%     ] fma-omp-target.sqlite[2/8] [=====================86%    ] fma-omp-target.sqlite[2/8] [=====================87%    ] fma-omp-target.sqlite[2/8] [=====================88%    ] fma-omp-target.sqlite[2/8] [=====================89%    ] fma-omp-target.sqlite[2/8] [======================90%   ] fma-omp-target.sqlite[2/8] [======================91%   ] fma-omp-target.sqlite[2/8] [======================92%   ] fma-omp-target.sqlite[2/8] [=======================93%  ] fma-omp-target.sqlite[2/8] [=======================94%  ] fma-omp-target.sqlite[2/8] [=======================95%  ] fma-omp-target.sqlite[2/8] [=======================96%  ] fma-omp-target.sqlite[2/8] [========================97% ] fma-omp-target.sqlite[2/8] [========================98% ] fma-omp-target.sqlite[2/8] [========================99% ] fma-omp-target.sqlite[2/8] [========================100%] fma-omp-target.sqlite[2/8] [========================100%] fma-omp-target.sqlite
+[3/8] Executing 'nvtx_sum' stats report
+[4/8] Executing 'osrt_sum' stats report
+
+ Time (%)  Total Time (ns)  Num Calls   Avg (ns)    Med (ns)   Min (ns)  Max (ns)   StdDev (ns)           Name         
+ --------  ---------------  ---------  ----------  ----------  --------  ---------  -----------  ----------------------
+     84.9       2831590996        147  19262523.8  10110668.0      2856  100157231   27426525.5  poll                  
+      8.5        283754104        130   2182723.9   2105268.0       461   20916519    2201872.6  sem_timedwait         
+      6.1        202236754        548    369045.2     30962.5       291   36309973    1747619.7  ioctl                 
+      0.4         13284681         45    295215.1      3166.0      1282   13016551    1939501.3  fopen                 
+      0.0          1242889         28     44388.9     11407.5      6052     696876     129834.9  mmap64                
+      0.0           781427          4    195356.8    177766.0    148298     277597      56665.0  pthread_create        
+      0.0           490603         61      8042.7      3898.0       692     214489      27139.4  open64                
+      0.0           164460         17      9674.1      7825.0      1914      31203       7504.1  mmap                  
+      0.0           101865          1    101865.0    101865.0    101865     101865          0.0  pthread_cond_wait     
+      0.0            64652         42      1539.3      1147.0       451      10511       1750.8  fclose                
+      0.0            48347          7      6906.7      6323.0      1072      12585       3964.4  open                  
+      0.0            47075         29      1623.3        60.0        50      45451       8429.3  fgets                 
+      0.0            35923          8      4490.4      4509.5      1473       8627       2276.3  munmap                
+      0.0            34349         62       554.0       481.0       121       3747        530.9  fcntl                 
+      0.0            28317         12      2359.8      1999.0       932       6643       1527.1  write                 
+      0.0            26090         15      1739.3      1162.0       922       5962       1460.0  read                  
+      0.0            23678          2     11839.0     11839.0     11564      12114        388.9  fread                 
+      0.0            23277          3      7759.0      9128.0      1293      12856       5901.8  pipe2                 
+      0.0            21313          2     10656.5     10656.5      6082      15231       6469.3  socket                
+      0.0            19200         23       834.8        50.0        40      11834       2636.2  fwrite                
+      0.0            16894          1     16894.0     16894.0     16894      16894          0.0  connect               
+      0.0            15222          7      2174.6        40.0        30      14920       5620.3  fflush                
+      0.0             7555          2      3777.5      3777.5      2826       4729       1345.6  pthread_cond_broadcast
+      0.0             5290          3      1763.3      1843.0      1383       2064        347.4  fopen64               
+      0.0             3848          8       481.0       365.5       191       1162        314.0  dup                   
+      0.0             2585          1      2585.0      2585.0      2585       2585          0.0  bind                  
+      0.0              832          1       832.0       832.0       832        832          0.0  putc                  
+      0.0              772          1       772.0       772.0       772        772          0.0  listen                
+
+[5/8] Executing 'cuda_api_sum' stats report
+
+ Time (%)  Total Time (ns)  Num Calls   Avg (ns)     Med (ns)    Min (ns)  Max (ns)   StdDev (ns)          Name        
+ --------  ---------------  ---------  -----------  -----------  --------  ---------  -----------  --------------------
+     98.2       1407232847         14  100516631.9  115561892.0      2656  132861800   42821951.9  cuStreamSynchronize 
+      1.5         21036500          1   21036500.0   21036500.0  21036500   21036500          0.0  cuMemAllocManaged   
+      0.1          1846399          2     923199.5     923199.5    438829    1407570     685003.3  cuMemcpyDtoHAsync_v2
+      0.1          1441428          2     720714.0     720714.0    409320    1032108     440377.6  cuMemcpyHtoDAsync_v2
+      0.0           674140          4     168535.0     209564.5     12234     242777     105543.9  cuMemAlloc_v2       
+      0.0           656546          1     656546.0     656546.0    656546     656546          0.0  cuMemAllocHost_v2   
+      0.0           117735         12       9811.3       6228.0      4900      41914      10495.5  cuLaunchKernel      
+      0.0            58647          1      58647.0      58647.0     58647      58647          0.0  cuModuleLoadDataEx  
+      0.0             3367          4        841.8        766.5       371       1463        467.3  cuCtxSetCurrent     
+      0.0             2825          1       2825.0       2825.0      2825       2825          0.0  cuInit              
+
+[6/8] Executing 'cuda_gpu_kern_sum' stats report
+
+ Time (%)  Total Time (ns)  Instances   Avg (ns)     Med (ns)    Min (ns)   Max (ns)   StdDev (ns)               Name             
+ --------  ---------------  ---------  -----------  -----------  ---------  ---------  -----------  ------------------------------
+    100.0       1407126632         12  117260552.7  115561865.5  115494474  132860656    4961691.6  nvkernel__Z3fmamPKfPf_F247L9_2
+
+[7/8] Executing 'cuda_gpu_mem_time_sum' stats report
+
+ Time (%)  Total Time (ns)  Count  Avg (ns)  Med (ns)  Min (ns)  Max (ns)  StdDev (ns)      Operation     
+ --------  ---------------  -----  --------  --------  --------  --------  -----------  ------------------
+     50.9          1132090      2  566045.0  566045.0    354462    777628     299223.5  [CUDA memcpy HtoD]
+     49.1          1093946      2  546973.0  546973.0    303582    790364     344206.9  [CUDA memcpy DtoH]
+
+[8/8] Executing 'cuda_gpu_mem_size_sum' stats report
+
+ Total (MB)  Count  Avg (MB)  Med (MB)  Min (MB)  Max (MB)  StdDev (MB)      Operation     
+ ----------  -----  --------  --------  --------  --------  -----------  ------------------
+      8.389      2     4.194     4.194     4.194     4.194        0.000  [CUDA memcpy DtoH]
+      8.389      2     4.194     4.194     4.194     4.194        0.000  [CUDA memcpy HtoD]
+
+Generated:
+    /tmp/fma-omp-target.nsys-rep
+    /tmp/fma-omp-target.sqlite

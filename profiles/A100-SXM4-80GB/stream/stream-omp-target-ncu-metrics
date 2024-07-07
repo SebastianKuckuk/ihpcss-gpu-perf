@@ -1,0 +1,23 @@
+==PROF== Connected to process 714606 (/home/hpc/iwia/iwia71/ihpcss-gpu-perf/build/stream/stream-omp-target)
+==PROF== Profiling "nvkernel__Z6streammPKdPd_F247..." - 0 (1/1): 0%....50%....100% - 1 pass
+  #cells / #it:  67108864 / 10
+  elapsed time:  805.817 ms
+  per iteration: 80.5817 ms
+  MLUP/s:        832.806
+  bandwidth:     13.3249 GB/s
+  compute:       0.832806 GFLOP/s
+  Passed result check
+==PROF== Disconnected from process 714606
+[714606] stream-omp-target@127.0.0.1
+  nvkernel__Z6streammPKdPd_F247L9_2 (524288, 1, 1)x(128, 1, 1), Context 1, Stream 13, Device 0, CC 8.0
+    Section: Command line profiler metrics
+    -------------------------------- ------------ ------------
+    Metric Name                       Metric Unit Metric Value
+    -------------------------------- ------------ ------------
+    dram__bytes_read.sum                    Mbyte       536.89
+    dram__bytes_read.sum.per_second  Gbyte/second       804.11
+    dram__bytes_write.sum                   Mbyte       524.48
+    dram__bytes_write.sum.per_second Gbyte/second       785.52
+    gpu__time_duration.sum                usecond       667.68
+    -------------------------------- ------------ ------------
+
