@@ -1,0 +1,24 @@
+==PROF== Connected to process 53802 (/jet/home/skuckuk/ihpcss-gpu-perf/build/stencil-2d/stencil-2d-cuda)
+==PROF== Profiling "jacobi" - 1 of 1: 0%....50%....100% - 4 passes
+  #cells / #it:  67108864 / 10
+  elapsed time:  1427.7 ms
+  per iteration: 142.77 ms
+  MLUP/s:        470.048
+  bandwidth:     7.52076 GB/s
+  compute:       1.88019 GFLOP/s
+  Final residual is 23.7894
+==PROF== Disconnected from process 53802
+[53802] stencil-2d-cuda@127.0.0.1
+  jacobi(unsigned long, unsigned long, double const*, double*), 2024-Jul-07 00:23:26, Context 1, Stream 7
+    Section: Command line profiler metrics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    dram__bytes_read.sum                                                             Mbyte                         537.42
+    dram__bytes_read.sum.per_second                                           Gbyte/second                         399.12
+    dram__bytes_write.sum                                                            Mbyte                         533.56
+    dram__bytes_write.sum.per_second                                          Gbyte/second                         396.25
+    gpu__time_duration.sum                                                         msecond                           1.35
+    lts__t_bytes_equiv_l1sectormiss_pipe_lsu_mem_global_op_ld.sum                    Mbyte                         870.17
+    lts__t_bytes_equiv_l1sectormiss_pipe_lsu_mem_global_op_st.sum                    Mbyte                         536.74
+    smsp__sass_average_data_bytes_per_sector_mem_global.ratio                  byte/sector                          29.09
+    ---------------------------------------------------------------------- --------------- ------------------------------
+

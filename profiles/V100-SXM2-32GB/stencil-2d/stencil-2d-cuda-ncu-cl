@@ -1,0 +1,56 @@
+==PROF== Connected to process 53722 (/jet/home/skuckuk/ihpcss-gpu-perf/build/stencil-2d/stencil-2d-cuda)
+==PROF== Profiling "jacobi" - 1 of 1: 0%....50%....100% - 19 passes
+  #cells / #it:  67108864 / 10
+  elapsed time:  1766.86 ms
+  per iteration: 176.686 ms
+  MLUP/s:        379.82
+  bandwidth:     6.07713 GB/s
+  compute:       1.51928 GFLOP/s
+  Final residual is 23.7894
+==PROF== Disconnected from process 53722
+[53722] stencil-2d-cuda@127.0.0.1
+  jacobi(unsigned long, unsigned long, double const*, double*), 2024-Jul-07 00:23:21, Context 1, Stream 7
+    Section: GPU Speed Of Light
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    DRAM Frequency                                                           cycle/usecond                         876.90
+    SM Frequency                                                             cycle/nsecond                           1.29
+    Elapsed Cycles                                                                   cycle                        1728123
+    Memory [%]                                                                           %                          89.11
+    SOL DRAM                                                                             %                          89.11
+    Duration                                                                       msecond                           1.34
+    SOL L1/TEX Cache                                                                     %                          43.39
+    SOL L2 Cache                                                                         %                          42.32
+    SM Active Cycles                                                                 cycle                     1718530.49
+    SM [%]                                                                               %                          22.09
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    OK    The kernel is utilizing greater than 80.0% of the available compute or memory performance of the device. To   
+          further improve performance, work will likely need to be shifted from the most utilized to another unit.      
+          Start by analyzing workloads in the Memory Workload Analysis section.                                         
+
+    Section: Launch Statistics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    Block Size                                                                                                        256
+    Function Cache Configuration                                                                  cudaFuncCachePreferNone
+    Grid Size                                                                                                      262144
+    Registers Per Thread                                                   register/thread                             19
+    Shared Memory Configuration Size                                                  byte                              0
+    Driver Shared Memory Per Block                                              byte/block                              0
+    Dynamic Shared Memory Per Block                                             byte/block                              0
+    Static Shared Memory Per Block                                              byte/block                              0
+    Threads                                                                         thread                       67108864
+    Waves Per SM                                                                                                   409.60
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+    Section: Occupancy
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    Block Limit SM                                                                   block                             32
+    Block Limit Registers                                                            block                             10
+    Block Limit Shared Mem                                                           block                             32
+    Block Limit Warps                                                                block                              8
+    Theoretical Active Warps per SM                                                   warp                             64
+    Theoretical Occupancy                                                                %                            100
+    Achieved Occupancy                                                                   %                          93.47
+    Achieved Active Warps Per SM                                                      warp                          59.82
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    OK    This kernel's theoretical occupancy is not impacted by any block limit.                                       
+
