@@ -18,6 +18,10 @@ NIT   = 10
 
 PARAMETERS = ${NX} ${NWARM} ${NIT}
 
+TAG   = ${NX}-${NIT}
+
+METRICS = gpu__time_duration.sum,dram__bytes_read.sum,dram__bytes_write.sum,dram__bytes_read.sum.per_second,dram__bytes_write.sum.per_second
+
 
 # all
 
@@ -139,11 +143,11 @@ ncu-cl: all mk-profile-dir
 .PHONY: ncu-metrics
 ncu-metrics: all mk-profile-dir
 	@echo "CUDA:"
-	ncu --launch-skip=$(NWARM) --launch-count=1 --metrics=gpu__time_duration.sum,dram__bytes_read.sum,dram__bytes_write.sum,dram__bytes_read.sum.per_second,dram__bytes_write.sum.per_second $(BUILD_DIR)/$(TEST_CASE)-cuda $(PARAMETERS) > $(PROFILE_DIR)/${TEST_CASE}-cuda-ncu-metrics
+	ncu --launch-skip=$(NWARM) --launch-count=1 --metrics=$(METRICS) $(BUILD_DIR)/$(TEST_CASE)-cuda $(PARAMETERS) > $(PROFILE_DIR)/${TEST_CASE}-cuda-ncu-metrics
 	cat $(PROFILE_DIR)/${TEST_CASE}-cuda-ncu-metrics
 	@echo ""
 	@echo "OpenMP Target:"
-	ncu --launch-skip=$(NWARM) --launch-count=1 --metrics=gpu__time_duration.sum,dram__bytes_read.sum,dram__bytes_write.sum,dram__bytes_read.sum.per_second,dram__bytes_write.sum.per_second $(BUILD_DIR)/$(TEST_CASE)-omp-target $(PARAMETERS) > $(PROFILE_DIR)/${TEST_CASE}-omp-target-ncu-metrics
+	ncu --launch-skip=$(NWARM) --launch-count=1 --metrics=$(METRICS) $(BUILD_DIR)/$(TEST_CASE)-omp-target $(PARAMETERS) > $(PROFILE_DIR)/${TEST_CASE}-omp-target-ncu-metrics
 	cat $(PROFILE_DIR)/${TEST_CASE}-omp-target-ncu-metrics
 	@echo ""
 
