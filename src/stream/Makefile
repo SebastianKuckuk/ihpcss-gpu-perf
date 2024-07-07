@@ -1,7 +1,13 @@
+# helper function
+
+GPU   = ${shell (nvidia-smi --query-gpu=name --format=csv,noheader | cut -d " " -f 2)}
+
+
 # configuration
 
 TEST_CASE = stream
 BUILD_DIR = ../../build/$(TEST_CASE)
+PROFILE_DIR = ../../profiles/$(GPU)/$(TEST_CASE)
 
 
 # default benchmark parameters
@@ -28,6 +34,10 @@ all: mk-target-dir $(targets)
 
 mk-target-dir:
 	@mkdir -p $(BUILD_DIR)
+
+
+mk-profile-dir:
+	@mkdir -p $(PROFILE_DIR)
 
 
 # build rules
@@ -76,6 +86,73 @@ bench: all
 	@echo "OpenMP Target:"
 	$(BUILD_DIR)/$(TEST_CASE)-omp-target $(PARAMETERS)
 	@echo ""
+
+
+# profiling target - nsight systems
+
+.PHONY: nsys
+nsys: all mk-profile-dir
+	@echo "CUDA:"
+	nsys profile -o $(PROFILE_DIR)/$(TEST_CASE)-cuda --force-overwrite=true $(BUILD_DIR)/$(TEST_CASE)-cuda $(PARAMETERS)
+	@echo ""
+	@echo "OpenMP Target:"
+	nsys profile -o $(PROFILE_DIR)/$(TEST_CASE)-omp-target --force-overwrite=true $(BUILD_DIR)/$(TEST_CASE)-omp-target $(PARAMETERS)
+	@echo ""
+
+
+.PHONY: nsys-stats
+nsys-stats: all mk-profile-dir
+	@echo "CUDA:"
+	nsys profile -o /tmp/$(TEST_CASE)-cuda --force-overwrite=true --stats=true $(BUILD_DIR)/$(TEST_CASE)-cuda $(PARAMETERS) > $(PROFILE_DIR)/${TEST_CASE}-cuda-nsys-stats
+	cat $(PROFILE_DIR)/${TEST_CASE}-cuda-nsys-stats
+	@echo ""
+	@echo "OpenMP Target:"
+	nsys profile -o /tmp/$(TEST_CASE)-omp-target --force-overwrite=true --stats=true $(BUILD_DIR)/$(TEST_CASE)-omp-target $(PARAMETERS) > $(PROFILE_DIR)/${TEST_CASE}-omp-target-nsys-stats
+	cat $(PROFILE_DIR)/${TEST_CASE}-omp-target-nsys-stats
+	@echo ""
+
+
+# profiling target - nsight compute
+
+.PHONY: ncu
+ncu: all mk-profile-dir
+	@echo "CUDA:"
+	ncu -o $(PROFILE_DIR)/$(TEST_CASE)-cuda --force-overwrite --launch-skip=$(NWARM) --launch-count=1 --set=full $(BUILD_DIR)/$(TEST_CASE)-cuda $(PARAMETERS)
+	@echo ""
+	@echo "OpenMP Target:"
+	ncu -o $(PROFILE_DIR)/$(TEST_CASE)-omp-target --force-overwrite --launch-skip=$(NWARM) --launch-count=1 --set=full $(BUILD_DIR)/$(TEST_CASE)-omp-target $(PARAMETERS)
+	@echo ""
+
+
+.PHONY: ncu-cl
+ncu-cl: all mk-profile-dir
+	@echo "CUDA:"
+	ncu --launch-skip=$(NWARM) --launch-count=1 $(BUILD_DIR)/$(TEST_CASE)-cuda $(PARAMETERS) > $(PROFILE_DIR)/${TEST_CASE}-cuda-ncu-cl
+	cat $(PROFILE_DIR)/${TEST_CASE}-cuda-ncu-cl
+	@echo ""
+	@echo "OpenMP Target:"
+	ncu --launch-skip=$(NWARM) --launch-count=1 $(BUILD_DIR)/$(TEST_CASE)-omp-target $(PARAMETERS) > $(PROFILE_DIR)/${TEST_CASE}-omp-target-ncu-cl
+	cat $(PROFILE_DIR)/${TEST_CASE}-omp-target-ncu-cl
+	@echo ""
+
+
+.PHONY: ncu-metrics
+ncu-metrics: all mk-profile-dir
+	@echo "CUDA:"
+	ncu --launch-skip=$(NWARM) --launch-count=1 --metrics=gpu__time_duration.sum,dram__bytes_read.sum,dram__bytes_write.sum,dram__bytes_read.sum.per_second,dram__bytes_write.sum.per_second $(BUILD_DIR)/$(TEST_CASE)-cuda $(PARAMETERS) > $(PROFILE_DIR)/${TEST_CASE}-cuda-ncu-metrics
+	cat $(PROFILE_DIR)/${TEST_CASE}-cuda-ncu-metrics
+	@echo ""
+	@echo "OpenMP Target:"
+	ncu --launch-skip=$(NWARM) --launch-count=1 --metrics=gpu__time_duration.sum,dram__bytes_read.sum,dram__bytes_write.sum,dram__bytes_read.sum.per_second,dram__bytes_write.sum.per_second $(BUILD_DIR)/$(TEST_CASE)-omp-target $(PARAMETERS) > $(PROFILE_DIR)/${TEST_CASE}-omp-target-ncu-metrics
+	cat $(PROFILE_DIR)/${TEST_CASE}-omp-target-ncu-metrics
+	@echo ""
+
+
+# helper function
+
+.PHONY: echo-gpu
+echo-gpu:
+	echo $(GPU)
 
 
 # clean target
