@@ -1,0 +1,65 @@
+==PROF== Connected to process 2023892 (/home/hpc/iwia/iwia71/ihpcss-gpu-perf/build/stream-slow/stream-slow-cuda)
+==PROF== Profiling "stream" - 0 (1/1): 0%....50%....100% - 10 passes
+  #cells / #it:  67108864 / 10
+  elapsed time:  2657.44 ms
+  per iteration: 265.744 ms
+  MLUP/s:        252.532
+  bandwidth:     4.04051 GB/s
+  compute:       0.252532 GFLOP/s
+  Passed result check
+==PROF== Disconnected from process 2023892
+[2023892] stream-slow-cuda@127.0.0.1
+  stream(unsigned long, const double *, double *) (3456, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 8.0
+    Section: GPU Speed Of Light Throughput
+    ----------------------- ------------- ------------
+    Metric Name               Metric Unit Metric Value
+    ----------------------- ------------- ------------
+    DRAM Frequency          cycle/nsecond         1.61
+    SM Frequency            cycle/nsecond         1.17
+    Elapsed Cycles                  cycle       757918
+    Memory Throughput                   %        79.10
+    DRAM Throughput                     %        79.10
+    Duration                      usecond       649.28
+    L1/TEX Cache Throughput             %        23.86
+    L2 Cache Throughput                 %        75.77
+    SM Active Cycles                cycle    732417.56
+    Compute (SM) Throughput             %        10.32
+    ----------------------- ------------- ------------
+
+    OPT   Memory is more heavily utilized than Compute: Look at the Memory Workload Analysis section to identify the    
+          DRAM bottleneck. Check memory replay (coalescing) metrics to make sure you're efficiently utilizing the       
+          bytes transferred. Also consider whether it is possible to do more work per memory access (kernel fusion) or  
+          whether there are values you can (re)compute.                                                                 
+
+    Section: Launch Statistics
+    -------------------------------- --------------- ---------------
+    Metric Name                          Metric Unit    Metric Value
+    -------------------------------- --------------- ---------------
+    Block Size                                                   256
+    Function Cache Configuration                     CachePreferNone
+    Grid Size                                                   3456
+    Registers Per Thread             register/thread              16
+    Shared Memory Configuration Size           Kbyte           32.77
+    Driver Shared Memory Per Block       Kbyte/block            1.02
+    Dynamic Shared Memory Per Block       byte/block               0
+    Static Shared Memory Per Block        byte/block               0
+    Threads                                   thread          884736
+    Waves Per SM                                                   4
+    -------------------------------- --------------- ---------------
+
+    Section: Occupancy
+    ------------------------------- ----------- ------------
+    Metric Name                     Metric Unit Metric Value
+    ------------------------------- ----------- ------------
+    Block Limit SM                        block           32
+    Block Limit Registers                 block           16
+    Block Limit Shared Mem                block           32
+    Block Limit Warps                     block            8
+    Theoretical Active Warps per SM        warp           64
+    Theoretical Occupancy                     %          100
+    Achieved Occupancy                        %        95.92
+    Achieved Active Warps Per SM           warp        61.39
+    ------------------------------- ----------- ------------
+
+    INF   This kernel's theoretical occupancy is not impacted by any block limit.                                       
+

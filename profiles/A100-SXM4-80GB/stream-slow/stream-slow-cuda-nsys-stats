@@ -1,0 +1,81 @@
+  #cells / #it:  67108864 / 10
+  elapsed time:  417.741 ms
+  per iteration: 41.7741 ms
+  MLUP/s:        1606.47
+  bandwidth:     25.7035 GB/s
+  compute:       1.60647 GFLOP/s
+  Passed result check
+Generating '/tmp/1856378.alex/nsys-report-6ff5.qdstrm'
+[1/8] [0%                          ] stream-slow-cuda.nsys-rep[1/8] [0%                          ] stream-slow-cuda.nsys-rep[1/8] [===22%                      ] stream-slow-cuda.nsys-rep[1/8] [=======39%                  ] stream-slow-cuda.nsys-rep[1/8] [============56%             ] stream-slow-cuda.nsys-rep[1/8] [============57%             ] stream-slow-cuda.nsys-rep[1/8] [=============58%            ] stream-slow-cuda.nsys-rep[1/8] [=============59%            ] stream-slow-cuda.nsys-rep[1/8] [=============60%            ] stream-slow-cuda.nsys-rep[1/8] [==============64%           ] stream-slow-cuda.nsys-rep[1/8] [================68%         ] stream-slow-cuda.nsys-rep[1/8] [===================80%      ] stream-slow-cuda.nsys-rep[1/8] [========================98% ] stream-slow-cuda.nsys-rep[1/8] [========================100%] stream-slow-cuda.nsys-rep[1/8] [========================100%] stream-slow-cuda.nsys-rep
+[2/8] [0%                          ] stream-slow-cuda.sqlite[2/8] [1%                          ] stream-slow-cuda.sqlite[2/8] [2%                          ] stream-slow-cuda.sqlite[2/8] [3%                          ] stream-slow-cuda.sqlite[2/8] [4%                          ] stream-slow-cuda.sqlite[2/8] [5%                          ] stream-slow-cuda.sqlite[2/8] [6%                          ] stream-slow-cuda.sqlite[2/8] [7%                          ] stream-slow-cuda.sqlite[2/8] [8%                          ] stream-slow-cuda.sqlite[2/8] [9%                          ] stream-slow-cuda.sqlite[2/8] [10%                         ] stream-slow-cuda.sqlite[2/8] [11%                         ] stream-slow-cuda.sqlite[2/8] [12%                         ] stream-slow-cuda.sqlite[2/8] [13%                         ] stream-slow-cuda.sqlite[2/8] [14%                         ] stream-slow-cuda.sqlite[2/8] [=15%                        ] stream-slow-cuda.sqlite[2/8] [=16%                        ] stream-slow-cuda.sqlite[2/8] [=17%                        ] stream-slow-cuda.sqlite[2/8] [==18%                       ] stream-slow-cuda.sqlite[2/8] [==19%                       ] stream-slow-cuda.sqlite[2/8] [==20%                       ] stream-slow-cuda.sqlite[2/8] [==21%                       ] stream-slow-cuda.sqlite[2/8] [===22%                      ] stream-slow-cuda.sqlite[2/8] [===23%                      ] stream-slow-cuda.sqlite[2/8] [===24%                      ] stream-slow-cuda.sqlite[2/8] [====25%                     ] stream-slow-cuda.sqlite[2/8] [====26%                     ] stream-slow-cuda.sqlite[2/8] [====27%                     ] stream-slow-cuda.sqlite[2/8] [====28%                     ] stream-slow-cuda.sqlite[2/8] [=====29%                    ] stream-slow-cuda.sqlite[2/8] [=====30%                    ] stream-slow-cuda.sqlite[2/8] [=====31%                    ] stream-slow-cuda.sqlite[2/8] [=====32%                    ] stream-slow-cuda.sqlite[2/8] [======33%                   ] stream-slow-cuda.sqlite[2/8] [======34%                   ] stream-slow-cuda.sqlite[2/8] [======35%                   ] stream-slow-cuda.sqlite[2/8] [=======36%                  ] stream-slow-cuda.sqlite[2/8] [=======37%                  ] stream-slow-cuda.sqlite[2/8] [=======38%                  ] stream-slow-cuda.sqlite[2/8] [=======39%                  ] stream-slow-cuda.sqlite[2/8] [========40%                 ] stream-slow-cuda.sqlite[2/8] [========41%                 ] stream-slow-cuda.sqlite[2/8] [========42%                 ] stream-slow-cuda.sqlite[2/8] [=========43%                ] stream-slow-cuda.sqlite[2/8] [=========44%                ] stream-slow-cuda.sqlite[2/8] [=========45%                ] stream-slow-cuda.sqlite[2/8] [=========46%                ] stream-slow-cuda.sqlite[2/8] [==========47%               ] stream-slow-cuda.sqlite[2/8] [==========48%               ] stream-slow-cuda.sqlite[2/8] [==========49%               ] stream-slow-cuda.sqlite[2/8] [===========50%              ] stream-slow-cuda.sqlite[2/8] [===========51%              ] stream-slow-cuda.sqlite[2/8] [===========52%              ] stream-slow-cuda.sqlite[2/8] [===========53%              ] stream-slow-cuda.sqlite[2/8] [============54%             ] stream-slow-cuda.sqlite[2/8] [============55%             ] stream-slow-cuda.sqlite[2/8] [============56%             ] stream-slow-cuda.sqlite[2/8] [============57%             ] stream-slow-cuda.sqlite[2/8] [=============58%            ] stream-slow-cuda.sqlite[2/8] [=============59%            ] stream-slow-cuda.sqlite[2/8] [=============60%            ] stream-slow-cuda.sqlite[2/8] [==============61%           ] stream-slow-cuda.sqlite[2/8] [==============62%           ] stream-slow-cuda.sqlite[2/8] [==============63%           ] stream-slow-cuda.sqlite[2/8] [==============64%           ] stream-slow-cuda.sqlite[2/8] [===============65%          ] stream-slow-cuda.sqlite[2/8] [===============66%          ] stream-slow-cuda.sqlite[2/8] [===============67%          ] stream-slow-cuda.sqlite[2/8] [================68%         ] stream-slow-cuda.sqlite[2/8] [================69%         ] stream-slow-cuda.sqlite[2/8] [================70%         ] stream-slow-cuda.sqlite[2/8] [================71%         ] stream-slow-cuda.sqlite[2/8] [=================72%        ] stream-slow-cuda.sqlite[2/8] [=================73%        ] stream-slow-cuda.sqlite[2/8] [=================74%        ] stream-slow-cuda.sqlite[2/8] [==================75%       ] stream-slow-cuda.sqlite[2/8] [==================76%       ] stream-slow-cuda.sqlite[2/8] [==================77%       ] stream-slow-cuda.sqlite[2/8] [==================78%       ] stream-slow-cuda.sqlite[2/8] [===================79%      ] stream-slow-cuda.sqlite[2/8] [===================80%      ] stream-slow-cuda.sqlite[2/8] [===================81%      ] stream-slow-cuda.sqlite[2/8] [===================82%      ] stream-slow-cuda.sqlite[2/8] [====================83%     ] stream-slow-cuda.sqlite[2/8] [====================84%     ] stream-slow-cuda.sqlite[2/8] [====================85%     ] stream-slow-cuda.sqlite[2/8] [=====================86%    ] stream-slow-cuda.sqlite[2/8] [=====================87%    ] stream-slow-cuda.sqlite[2/8] [=====================88%    ] stream-slow-cuda.sqlite[2/8] [=====================89%    ] stream-slow-cuda.sqlite[2/8] [======================90%   ] stream-slow-cuda.sqlite[2/8] [======================91%   ] stream-slow-cuda.sqlite[2/8] [======================92%   ] stream-slow-cuda.sqlite[2/8] [=======================93%  ] stream-slow-cuda.sqlite[2/8] [=======================94%  ] stream-slow-cuda.sqlite[2/8] [=======================95%  ] stream-slow-cuda.sqlite[2/8] [=======================96%  ] stream-slow-cuda.sqlite[2/8] [========================97% ] stream-slow-cuda.sqlite[2/8] [========================98% ] stream-slow-cuda.sqlite[2/8] [========================99% ] stream-slow-cuda.sqlite[2/8] [========================100%] stream-slow-cuda.sqlite[2/8] [========================100%] stream-slow-cuda.sqlite
+[3/8] Executing 'nvtx_sum' stats report
+[4/8] Executing 'osrt_sum' stats report
+
+ Time (%)  Total Time (ns)  Num Calls   Avg (ns)    Med (ns)   Min (ns)  Max (ns)   StdDev (ns)           Name         
+ --------  ---------------  ---------  ----------  ----------  --------  ---------  -----------  ----------------------
+     64.0       1271550702         23  55284813.1  42996405.0      1694  169412534   50900068.2  poll                  
+     31.5        626956671        579   1082826.7    123894.0       321  110820568    6714316.9  ioctl                 
+      3.6         72540005         22   3297273.0     10115.0      2606   36892371   10632957.0  mmap                  
+      0.7         13337459         45    296388.0      5290.0      1944   12943599    1928203.5  fopen                 
+      0.1          1656049         28     59144.6      9138.0      8036    1076895     201058.7  mmap64                
+      0.0           826299          4    206574.8    208115.5    185185     224883      19908.5  pthread_create        
+      0.0           344874         61      5653.7      4579.0       752      17064       3876.9  open64                
+      0.0           322017         10     32201.7     32093.5     18447      51993      11494.8  sem_timedwait         
+      0.0           109947          1    109947.0    109947.0    109947     109947          0.0  pthread_cond_wait     
+      0.0           100932         42      2403.1      1728.5       601       8858       1943.9  fclose                
+      0.0            96389         14      6884.9      4203.5      2905      21733       6096.3  munmap                
+      0.0            82390         29      2841.0       111.0       100      79036      14654.4  fgets                 
+      0.0            56412          7      8058.9      7404.0      2075      15802       4550.2  open                  
+      0.0            33519         62       540.6       461.0       151       2675        379.4  fcntl                 
+      0.0            25891          2     12945.5     12945.5     12285      13606        934.1  fread                 
+      0.0            25542         12      2128.5      1929.0       792       3387        695.5  write                 
+      0.0            25139          2     12569.5     12569.5      6312      18827       8849.4  socket                
+      0.0            24075         15      1605.0       862.0       280       7094       1942.1  read                  
+      0.0            22765          3      7588.3      7725.0      3557      11483       3964.8  pipe2                 
+      0.0            21753          7      3107.6        50.0        40      20962       7874.7  fflush                
+      0.0            18717          1     18717.0     18717.0     18717      18717          0.0  connect               
+      0.0            14839         23       645.2        60.0        50       8406       1773.0  fwrite                
+      0.0             6403          3      2134.3      1943.0      1614       2846        637.9  fopen64               
+      0.0             5852          2      2926.0      2926.0      2134       3718       1120.1  pthread_cond_broadcast
+      0.0             3367          1      3367.0      3367.0      3367       3367          0.0  bind                  
+      0.0             3024          8       378.0       365.5       211        591        131.9  dup                   
+      0.0             1142          1      1142.0      1142.0      1142       1142          0.0  listen                
+      0.0              791          1       791.0       791.0       791        791          0.0  putc                  
+
+[5/8] Executing 'cuda_api_sum' stats report
+
+ Time (%)  Total Time (ns)  Num Calls   Avg (ns)     Med (ns)    Min (ns)   Max (ns)   StdDev (ns)                Name               
+ --------  ---------------  ---------  -----------  -----------  ---------  ---------  -----------  ---------------------------------
+     46.4        504094920         24   21003955.0   20698945.5   20107754   23089267    1055796.1  cudaMemcpy                       
+     44.4        482310015          2  241155007.5  241155007.5  116547868  365762147  176221106.6  cudaMallocHost                   
+      8.6         93024805          2   46512402.5   46512402.5   45695601   47329204    1155131.8  cudaFreeHost                     
+      0.3          2832859          2    1416429.5    1416429.5     890036    1942823     744432.8  cudaFree                         
+      0.2          2648796          2    1324398.0    1324398.0     331484    2317312    1404192.4  cudaMalloc                       
+      0.1          1568254          1    1568254.0    1568254.0    1568254    1568254          0.0  cudaGetDeviceProperties_v2_v12000
+      0.0           255162         12      21263.5       7560.0       6272     163662      44927.1  cudaLaunchKernel                 
+      0.0            15350          2       7675.0       7675.0       6503       8847       1657.5  cudaDeviceSynchronize            
+      0.0             1292          1       1292.0       1292.0       1292       1292          0.0  cuModuleGetLoadingMode           
+
+[6/8] Executing 'cuda_gpu_kern_sum' stats report
+
+ Time (%)  Total Time (ns)  Instances  Avg (ns)  Med (ns)  Min (ns)  Max (ns)  StdDev (ns)                       Name                      
+ --------  ---------------  ---------  --------  --------  --------  --------  -----------  -----------------------------------------------
+    100.0          7890992         12  657582.7  657614.5    652478    667903       4227.0  stream(unsigned long, const double *, double *)
+
+[7/8] Executing 'cuda_gpu_mem_time_sum' stats report
+
+ Time (%)  Total Time (ns)  Count   Avg (ns)    Med (ns)   Min (ns)  Max (ns)  StdDev (ns)      Operation     
+ --------  ---------------  -----  ----------  ----------  --------  --------  -----------  ------------------
+     51.3        254095645     12  21174637.1  20520209.5  20421554  22415276     875147.8  [CUDA memcpy DtoH]
+     48.7        241673340     12  20139445.0  20115427.0  20092691  20235953      47728.1  [CUDA memcpy HtoD]
+
+[8/8] Executing 'cuda_gpu_mem_size_sum' stats report
+
+ Total (MB)  Count  Avg (MB)  Med (MB)  Min (MB)  Max (MB)  StdDev (MB)      Operation     
+ ----------  -----  --------  --------  --------  --------  -----------  ------------------
+   6442.451     12   536.871   536.871   536.871   536.871        0.000  [CUDA memcpy DtoH]
+   6442.451     12   536.871   536.871   536.871   536.871        0.000  [CUDA memcpy HtoD]
+
+Generated:
+    /tmp/stream-slow-cuda.nsys-rep
+    /tmp/stream-slow-cuda.sqlite

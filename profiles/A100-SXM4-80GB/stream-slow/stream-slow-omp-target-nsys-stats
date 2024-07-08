@@ -1,0 +1,82 @@
+  #cells / #it:  67108864 / 10
+  elapsed time:  832.064 ms
+  per iteration: 83.2064 ms
+  MLUP/s:        806.535
+  bandwidth:     12.9046 GB/s
+  compute:       0.806535 GFLOP/s
+  Passed result check
+Generating '/tmp/1856378.alex/nsys-report-2508.qdstrm'
+[1/8] [0%                          ] stream-slow-omp-target.nsys-rep[1/8] [0%                          ] stream-slow-omp-target.nsys-rep[1/8] [===23%                      ] stream-slow-omp-target.nsys-rep[1/8] [=======38%                  ] stream-slow-omp-target.nsys-rep[1/8] [===========53%              ] stream-slow-omp-target.nsys-rep[1/8] [============54%             ] stream-slow-omp-target.nsys-rep[1/8] [============55%             ] stream-slow-omp-target.nsys-rep[1/8] [============56%             ] stream-slow-omp-target.nsys-rep[1/8] [============57%             ] stream-slow-omp-target.nsys-rep[1/8] [=============58%            ] stream-slow-omp-target.nsys-rep[1/8] [=============59%            ] stream-slow-omp-target.nsys-rep[1/8] [==================75%       ] stream-slow-omp-target.nsys-rep[1/8] [==================76%       ] stream-slow-omp-target.nsys-rep[1/8] [==================77%       ] stream-slow-omp-target.nsys-rep[1/8] [=======================94%  ] stream-slow-omp-target.nsys-rep[1/8] [=======================96%  ] stream-slow-omp-target.nsys-rep[1/8] [========================100%] stream-slow-omp-target.nsys-rep[1/8] [========================100%] stream-slow-omp-target.nsys-rep
+[2/8] [0%                          ] stream-slow-omp-target.sqlite[2/8] [1%                          ] stream-slow-omp-target.sqlite[2/8] [2%                          ] stream-slow-omp-target.sqlite[2/8] [3%                          ] stream-slow-omp-target.sqlite[2/8] [4%                          ] stream-slow-omp-target.sqlite[2/8] [5%                          ] stream-slow-omp-target.sqlite[2/8] [6%                          ] stream-slow-omp-target.sqlite[2/8] [7%                          ] stream-slow-omp-target.sqlite[2/8] [8%                          ] stream-slow-omp-target.sqlite[2/8] [9%                          ] stream-slow-omp-target.sqlite[2/8] [10%                         ] stream-slow-omp-target.sqlite[2/8] [11%                         ] stream-slow-omp-target.sqlite[2/8] [12%                         ] stream-slow-omp-target.sqlite[2/8] [13%                         ] stream-slow-omp-target.sqlite[2/8] [14%                         ] stream-slow-omp-target.sqlite[2/8] [=15%                        ] stream-slow-omp-target.sqlite[2/8] [=16%                        ] stream-slow-omp-target.sqlite[2/8] [=17%                        ] stream-slow-omp-target.sqlite[2/8] [==18%                       ] stream-slow-omp-target.sqlite[2/8] [==19%                       ] stream-slow-omp-target.sqlite[2/8] [==20%                       ] stream-slow-omp-target.sqlite[2/8] [==21%                       ] stream-slow-omp-target.sqlite[2/8] [===22%                      ] stream-slow-omp-target.sqlite[2/8] [===23%                      ] stream-slow-omp-target.sqlite[2/8] [===24%                      ] stream-slow-omp-target.sqlite[2/8] [====25%                     ] stream-slow-omp-target.sqlite[2/8] [====26%                     ] stream-slow-omp-target.sqlite[2/8] [====27%                     ] stream-slow-omp-target.sqlite[2/8] [====28%                     ] stream-slow-omp-target.sqlite[2/8] [=====29%                    ] stream-slow-omp-target.sqlite[2/8] [=====30%                    ] stream-slow-omp-target.sqlite[2/8] [=====31%                    ] stream-slow-omp-target.sqlite[2/8] [=====32%                    ] stream-slow-omp-target.sqlite[2/8] [======33%                   ] stream-slow-omp-target.sqlite[2/8] [======34%                   ] stream-slow-omp-target.sqlite[2/8] [======35%                   ] stream-slow-omp-target.sqlite[2/8] [=======36%                  ] stream-slow-omp-target.sqlite[2/8] [=======37%                  ] stream-slow-omp-target.sqlite[2/8] [=======38%                  ] stream-slow-omp-target.sqlite[2/8] [=======39%                  ] stream-slow-omp-target.sqlite[2/8] [========40%                 ] stream-slow-omp-target.sqlite[2/8] [========41%                 ] stream-slow-omp-target.sqlite[2/8] [========42%                 ] stream-slow-omp-target.sqlite[2/8] [=========43%                ] stream-slow-omp-target.sqlite[2/8] [=========44%                ] stream-slow-omp-target.sqlite[2/8] [=========45%                ] stream-slow-omp-target.sqlite[2/8] [=========46%                ] stream-slow-omp-target.sqlite[2/8] [==========47%               ] stream-slow-omp-target.sqlite[2/8] [==========48%               ] stream-slow-omp-target.sqlite[2/8] [==========49%               ] stream-slow-omp-target.sqlite[2/8] [===========50%              ] stream-slow-omp-target.sqlite[2/8] [===========51%              ] stream-slow-omp-target.sqlite[2/8] [===========52%              ] stream-slow-omp-target.sqlite[2/8] [===========53%              ] stream-slow-omp-target.sqlite[2/8] [============54%             ] stream-slow-omp-target.sqlite[2/8] [============55%             ] stream-slow-omp-target.sqlite[2/8] [============56%             ] stream-slow-omp-target.sqlite[2/8] [============57%             ] stream-slow-omp-target.sqlite[2/8] [=============58%            ] stream-slow-omp-target.sqlite[2/8] [=============59%            ] stream-slow-omp-target.sqlite[2/8] [=============60%            ] stream-slow-omp-target.sqlite[2/8] [==============61%           ] stream-slow-omp-target.sqlite[2/8] [==============62%           ] stream-slow-omp-target.sqlite[2/8] [==============63%           ] stream-slow-omp-target.sqlite[2/8] [==============64%           ] stream-slow-omp-target.sqlite[2/8] [===============65%          ] stream-slow-omp-target.sqlite[2/8] [===============66%          ] stream-slow-omp-target.sqlite[2/8] [===============67%          ] stream-slow-omp-target.sqlite[2/8] [================68%         ] stream-slow-omp-target.sqlite[2/8] [================69%         ] stream-slow-omp-target.sqlite[2/8] [================70%         ] stream-slow-omp-target.sqlite[2/8] [================71%         ] stream-slow-omp-target.sqlite[2/8] [=================72%        ] stream-slow-omp-target.sqlite[2/8] [=================73%        ] stream-slow-omp-target.sqlite[2/8] [=================74%        ] stream-slow-omp-target.sqlite[2/8] [==================75%       ] stream-slow-omp-target.sqlite[2/8] [==================76%       ] stream-slow-omp-target.sqlite[2/8] [==================77%       ] stream-slow-omp-target.sqlite[2/8] [==================78%       ] stream-slow-omp-target.sqlite[2/8] [===================79%      ] stream-slow-omp-target.sqlite[2/8] [===================80%      ] stream-slow-omp-target.sqlite[2/8] [===================81%      ] stream-slow-omp-target.sqlite[2/8] [===================82%      ] stream-slow-omp-target.sqlite[2/8] [====================83%     ] stream-slow-omp-target.sqlite[2/8] [====================84%     ] stream-slow-omp-target.sqlite[2/8] [====================85%     ] stream-slow-omp-target.sqlite[2/8] [=====================86%    ] stream-slow-omp-target.sqlite[2/8] [=====================87%    ] stream-slow-omp-target.sqlite[2/8] [=====================88%    ] stream-slow-omp-target.sqlite[2/8] [=====================89%    ] stream-slow-omp-target.sqlite[2/8] [======================90%   ] stream-slow-omp-target.sqlite[2/8] [======================91%   ] stream-slow-omp-target.sqlite[2/8] [======================92%   ] stream-slow-omp-target.sqlite[2/8] [=======================93%  ] stream-slow-omp-target.sqlite[2/8] [=======================94%  ] stream-slow-omp-target.sqlite[2/8] [=======================95%  ] stream-slow-omp-target.sqlite[2/8] [=======================96%  ] stream-slow-omp-target.sqlite[2/8] [========================97% ] stream-slow-omp-target.sqlite[2/8] [========================98% ] stream-slow-omp-target.sqlite[2/8] [========================99% ] stream-slow-omp-target.sqlite[2/8] [========================100%] stream-slow-omp-target.sqlite[2/8] [========================100%] stream-slow-omp-target.sqlite
+[3/8] Executing 'nvtx_sum' stats report
+[4/8] Executing 'osrt_sum' stats report
+
+ Time (%)  Total Time (ns)  Num Calls   Avg (ns)    Med (ns)   Min (ns)  Max (ns)   StdDev (ns)           Name         
+ --------  ---------------  ---------  ----------  ----------  --------  ---------  -----------  ----------------------
+     83.0       2239456328        115  19473533.3  10067474.0      1513  100161958   27895340.0  poll                  
+      8.5        229879419        556    413452.2     35920.5       310   35783644    1791519.2  ioctl                 
+      7.9        212535531        101   2104312.2   2063642.0       241   20779900    2148060.1  sem_timedwait         
+      0.4         12116456         45    269254.6      3877.0      1283   11843448    1764605.7  fopen                 
+      0.0          1161413         28     41479.0      9088.0      7625     613130     114588.0  mmap64                
+      0.0          1038379          4    259594.8    260960.5    190946     325512      64193.3  pthread_create        
+      0.0           279547         61      4582.7      4408.0       681      14719       2923.6  open64                
+      0.0           170845         19      8991.8      6794.0      2685      35430       7527.8  mmap                  
+      0.0           145026          1    145026.0    145026.0    145026     145026          0.0  pthread_cond_wait     
+      0.0            65758         29      2267.5        60.0        50      64116      11895.2  fgets                 
+      0.0            64991         42      1547.4      1242.5       461       8006       1422.7  fclose                
+      0.0            61072          7      8724.6      5922.0      1022      18086       6247.8  open                  
+      0.0            58957          2     29478.5     29478.5     10070      48887      27447.8  fread                 
+      0.0            40552          9      4505.8      3848.0      1633      12725       3417.9  munmap                
+      0.0            29943         62       483.0       426.0       130       2475        388.2  fcntl                 
+      0.0            26643         12      2220.3      2279.5       952       2846        541.7  write                 
+      0.0            26391          7      3770.1        50.0        40      25921       9767.7  fflush                
+      0.0            25392         15      1692.8       852.0       441       7215       2082.8  read                  
+      0.0            25160         23      1093.9        50.0        40      11493       3106.3  fwrite                
+      0.0            22043          3      7347.7      5872.0      1793      14378       6421.0  pipe2                 
+      0.0            19267          2      9633.5      9633.5      6162      13105       4909.4  socket                
+      0.0            16853          1     16853.0     16853.0     16853      16853          0.0  connect               
+      0.0             7494          2      3747.0      3747.0      2404       5090       1899.3  pthread_cond_broadcast
+      0.0             7034          3      2344.7      1924.0      1643       3467        982.1  fopen64               
+      0.0             3066          1      3066.0      3066.0      3066       3066          0.0  bind                  
+      0.0             2636          8       329.5       311.0       200        461         79.6  dup                   
+      0.0              841          1       841.0       841.0       841        841          0.0  listen                
+      0.0              511          1       511.0       511.0       511        511          0.0  putc                  
+
+[5/8] Executing 'cuda_api_sum' stats report
+
+ Time (%)  Total Time (ns)  Num Calls   Avg (ns)    Med (ns)   Min (ns)  Max (ns)  StdDev (ns)          Name        
+ --------  ---------------  ---------  ----------  ----------  --------  --------  -----------  --------------------
+     52.4        553735706         12  46144642.2  43375478.0  43138867  76546533    9575266.7  cuMemcpyDtoHAsync_v2
+     45.3        478545892         12  39878824.3  39743432.0  39593712  41106556     410163.8  cuMemcpyHtoDAsync_v2
+      2.0         20860770          1  20860770.0  20860770.0  20860770  20860770          0.0  cuMemAllocManaged   
+      0.3          2938839          4    734709.8    537145.0      9709   1854840     830180.6  cuMemAlloc_v2       
+      0.1           596527          1    596527.0    596527.0    596527    596527          0.0  cuMemAllocHost_v2   
+      0.0           419257         12     34938.1     32088.5     27765     67173      11019.6  cuLaunchKernel      
+      0.0            62632         12      5219.3      4509.0      4168     13196       2529.1  cuStreamSynchronize 
+      0.0            52253          1     52253.0     52253.0     52253     52253          0.0  cuModuleLoadDataEx  
+      0.0             4379          4      1094.8       977.0       441      1984        769.9  cuCtxSetCurrent     
+      0.0             1482          1      1482.0      1482.0      1482      1482          0.0  cuInit              
+
+[6/8] Executing 'cuda_gpu_kern_sum' stats report
+
+ Time (%)  Total Time (ns)  Instances  Avg (ns)  Med (ns)  Min (ns)  Max (ns)  StdDev (ns)                Name               
+ --------  ---------------  ---------  --------  --------  --------  --------  -----------  ---------------------------------
+    100.0          7879244         12  656603.7  648687.0    643326    706399      21481.1  nvkernel__Z6streammPKdPd_F247L9_2
+
+[7/8] Executing 'cuda_gpu_mem_time_sum' stats report
+
+ Time (%)  Total Time (ns)  Count   Avg (ns)    Med (ns)   Min (ns)  Max (ns)  StdDev (ns)      Operation     
+ --------  ---------------  -----  ----------  ----------  --------  --------  -----------  ------------------
+     53.2        544333563     12  45361130.3  42643888.5  42396385  75286294    9425117.5  [CUDA memcpy DtoH]
+     46.8        478177678     12  39848139.8  39715686.5  39567175  41049636     401783.0  [CUDA memcpy HtoD]
+
+[8/8] Executing 'cuda_gpu_mem_size_sum' stats report
+
+ Total (MB)  Count  Avg (MB)  Med (MB)  Min (MB)  Max (MB)  StdDev (MB)      Operation     
+ ----------  -----  --------  --------  --------  --------  -----------  ------------------
+   6442.451     12   536.871   536.871   536.871   536.871        0.000  [CUDA memcpy DtoH]
+   6442.451     12   536.871   536.871   536.871   536.871        0.000  [CUDA memcpy HtoD]
+
+Generated:
+    /tmp/stream-slow-omp-target.nsys-rep
+    /tmp/stream-slow-omp-target.sqlite

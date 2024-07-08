@@ -1,0 +1,23 @@
+==PROF== Connected to process 2025832 (/home/hpc/iwia/iwia71/ihpcss-gpu-perf/build/stream-slow/stream-slow-cuda)
+==PROF== Profiling "stream" - 0 (1/1): 0%....50%....100% - 1 pass
+  #cells / #it:  67108864 / 10
+  elapsed time:  1316.52 ms
+  per iteration: 131.652 ms
+  MLUP/s:        509.745
+  bandwidth:     8.15592 GB/s
+  compute:       0.509745 GFLOP/s
+  Passed result check
+==PROF== Disconnected from process 2025832
+[2025832] stream-slow-cuda@127.0.0.1
+  stream(unsigned long, const double *, double *) (3456, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 8.0
+    Section: Command line profiler metrics
+    -------------------------------- ------------ ------------
+    Metric Name                       Metric Unit Metric Value
+    -------------------------------- ------------ ------------
+    dram__bytes_read.sum                    Mbyte       536.88
+    dram__bytes_read.sum.per_second  Gbyte/second       829.71
+    dram__bytes_write.sum                   Mbyte       524.13
+    dram__bytes_write.sum.per_second Gbyte/second       810.00
+    gpu__time_duration.sum                usecond       647.07
+    -------------------------------- ------------ ------------
+
