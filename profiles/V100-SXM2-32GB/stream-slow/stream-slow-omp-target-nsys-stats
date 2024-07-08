@@ -1,0 +1,85 @@
+  #cells / #it:  67108864 / 10
+  elapsed time:  2294.33 ms
+  per iteration: 229.433 ms
+  MLUP/s:        292.499
+  bandwidth:     4.67998 GB/s
+  compute:       0.292499 GFLOP/s
+  Passed result check
+
+
+CUDA API Statistics:
+
+ Time(%)  Total Time (ns)  Num Calls   Average    Minimum   Maximum    StdDev           Name        
+ -------  ---------------  ---------  ----------  --------  --------  --------  --------------------
+    80.9        482940855       1172    412065.6       640   1462598  598174.9  cuEventSynchronize  
+     8.3         49398054         36   1372168.2    420401   2665652  282168.1  cuStreamSynchronize 
+     4.7         28026679          1  28026679.0  28026679  28026679       0.0  cuMemHostAlloc      
+     3.5         21171040          1  21171040.0  21171040  21171040       0.0  cuMemAllocManaged   
+     0.8          4501304        384     11722.1      6118    414909   21317.8  cuMemcpyHtoDAsync_v2
+     0.6          3568599        396      9011.6      2706     89435    6072.5  cuMemcpyDtoHAsync_v2
+     0.5          3221234       1174      2743.8      1225     19494    1659.3  cuEventRecord       
+     0.3          1932475          4    483118.8     23362    879757  363892.8  cuMemAlloc_v2       
+     0.2          1132967          1   1132967.0   1132967   1132967       0.0  cuMemAllocHost_v2   
+     0.1           480714          1    480714.0    480714    480714       0.0  cuModuleLoadDataEx  
+     0.1           307600         12     25633.3     19612     34705    5332.5  cuLaunchKernel      
+     0.0            31923          1     31923.0     31923     31923       0.0  cuMemcpyHtoD_v2     
+     0.0            20767          1     20767.0     20767     20767       0.0  cuStreamCreate      
+     0.0            11785          4      2946.3       810      7181    2910.8  cuEventCreate       
+     0.0             2248          1      2248.0      2248      2248       0.0  cuInit              
+
+
+
+CUDA Kernel Statistics:
+
+ Time(%)  Total Time (ns)  Instances   Average   Minimum  Maximum  StdDev                Name               
+ -------  ---------------  ---------  ---------  -------  -------  ------  ---------------------------------
+   100.0         17490290         12  1457524.2  1452695  1461943  2363.1  nvkernel__Z6streammPKdPd_F247L9_1
+
+
+
+CUDA Memory Operation Statistics (by time):
+
+ Time(%)  Total Time (ns)  Operations   Average   Minimum  Maximum   StdDev       Operation     
+ -------  ---------------  ----------  ---------  -------  -------  --------  ------------------
+    52.2        537663196         385  1396527.8     1728  2673135  235362.3  [CUDA memcpy HtoD]
+    47.8        491420086         396  1240959.8     2752  1455991  220358.3  [CUDA memcpy DtoH]
+
+
+
+CUDA Memory Operation Statistics (by size in KiB):
+
+    Total     Operations   Average   Minimum   Maximum    StdDev       Operation     
+ -----------  ----------  ---------  -------  ---------  --------  ------------------
+ 6291456.008         385  16341.444    0.008  16384.000   835.006  [CUDA memcpy HtoD]
+ 6291456.000         396  15887.515    2.000  16383.938  2811.741  [CUDA memcpy DtoH]
+
+
+
+Operating System Runtime API Statistics:
+
+ Time(%)  Total Time (ns)  Num Calls   Average    Minimum   Maximum     StdDev         Name     
+ -------  ---------------  ---------  ----------  -------  ---------  ----------  --------------
+    88.9       5608490623        283  19817988.1     1654  100216221  28314530.5  poll          
+     8.5        537429766        248   2167055.5    19195   21010871   1659018.6  sem_timedwait 
+     2.5        158035280        868    182068.3     1183   44741204   1780976.3  ioctl         
+     0.1          4121340         81     50880.7     4113    2240721    246810.0  mmap64        
+     0.0           642870        109      5897.9     1002      19452      3750.2  open64        
+     0.0           528909         37     14294.8     1300     283281     47685.6  fopen         
+     0.0           429698          4    107424.5    76179     126201     22475.7  pthread_create
+     0.0           262289         25     10491.6     1104      46510     10455.7  mmap          
+     0.0            62350         10      6235.0     1991      18873      4932.2  munmap        
+     0.0            47529          9      5281.0     1045      15490      4338.2  fgetc         
+     0.0            44647         12      3720.6     1132       5980      1330.0  write         
+     0.0            38877          1     38877.0    38877      38877         0.0  fgets         
+     0.0            32932          7      4704.6     1302       8021      2488.6  open          
+     0.0            22530          2     11265.0     5495      17035      8160.0  fread         
+     0.0            21080         13      1621.5     1002       3342       667.8  read          
+     0.0            17047          3      5682.3     2208      10187      4088.1  pipe2         
+     0.0            16556         12      1379.7     1016       2154       377.7  fclose        
+     0.0            14714          2      7357.0     3511      11203      5439.1  fwrite        
+     0.0            12492          2      6246.0     4158       8334      2952.9  socket        
+     0.0            12393          9      1377.0     1010       1988       314.7  fcntl         
+     0.0             9705          1      9705.0     9705       9705         0.0  fflush        
+     0.0             8511          1      8511.0     8511       8511         0.0  connect       
+     0.0             1575          1      1575.0     1575       1575         0.0  bind          
+
