@@ -9,7 +9,9 @@ A copy of all profiles obtained is also included in this repository.
 
 ## Course Content
 
-All course material is collected and available at [https://github.com/SebastianKuckuk/ihpcss-gpu-perf](https://github.com/SebastianKuckuk/ihpcss-gpu-perf).
+All course material is collected and available at [https://github.com/SebastianKuckuk/ihpcss-gpu-perf](https://github.com/SebastianKuckuk/ihpcss-gpu-perf) (this repository).
+
+Slides are availavle at [doc/ihpcss-2024-gpu-performance-engineering.pdf](doc/ihpcss-2024-gpu-performance-engineering.pdf).
 
 ## Instructions
 
