@@ -7,7 +7,7 @@
 
 
 inline void stream(size_t nx, const tpe *__restrict__ src, tpe *__restrict__ dest) {
-#pragma omp target teams distribute parallel for schedule(static)
+#pragma omp target teams distribute parallel for
     for (size_t i = 0; i < nx; ++i)
         dest[i] = src[i] + 1;
 }

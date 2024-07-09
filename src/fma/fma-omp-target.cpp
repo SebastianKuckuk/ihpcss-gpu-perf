@@ -7,7 +7,7 @@
 
 
 inline void fma(size_t nx, const tpe *__restrict__ src, tpe *__restrict__ dest) {
-#pragma omp target teams distribute parallel for schedule(static)
+#pragma omp target teams distribute parallel for
     for (size_t i = 0; i < nx; ++i) {
         auto acc = src[i];
         for (auto j = 0; j < numRepetitions; ++j)

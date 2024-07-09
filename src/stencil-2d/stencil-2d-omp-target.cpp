@@ -25,7 +25,7 @@ inline void jacobi(size_t nx, size_t ny, const tpe *__restrict__ u, tpe *__restr
 // }
 
 // inline void jacobi(size_t nx, size_t ny, const tpe *__restrict__ u, tpe *__restrict__ uNew) {
-// #pragma omp target teams distribute parallel for collapse(2) schedule(static)
+// #pragma omp target teams distribute parallel for collapse(2)
 //     for (size_t j = 0; j < ny; ++j) {
 //         for (size_t i = 0; i < nx; ++i) {
 //             if (i < 1 || j < 1 || i >= nx - 1 || j >= ny - 1)
