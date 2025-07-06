@@ -1,81 +1,0 @@
-  #cells / #it:  1048576 / 10
-  elapsed time:  1149.79 ms
-  per iteration: 114.979 ms
-  MLUP/s:        9.11971
-  bandwidth:     0.0729577 GB/s
-  compute:       19125.4 GFLOP/s
-  Passed result check
-Generating '/tmp/1831472.alex/nsys-report-3ca3.qdstrm'
-[1/8] [0%                          ] fma-cuda.nsys-rep[1/8] [0%                          ] fma-cuda.nsys-rep[1/8] [====25%                     ] fma-cuda.nsys-rep[1/8] [========40%                 ] fma-cuda.nsys-rep[1/8] [============55%             ] fma-cuda.nsys-rep[1/8] [============56%             ] fma-cuda.nsys-rep[1/8] [============57%             ] fma-cuda.nsys-rep[1/8] [=============58%            ] fma-cuda.nsys-rep[1/8] [=============59%            ] fma-cuda.nsys-rep[1/8] [=============60%            ] fma-cuda.nsys-rep[1/8] [==============62%           ] fma-cuda.nsys-rep[1/8] [==================76%       ] fma-cuda.nsys-rep[1/8] [========================97% ] fma-cuda.nsys-rep[1/8] [========================99% ] fma-cuda.nsys-rep[1/8] [========================100%] fma-cuda.nsys-rep[1/8] [========================100%] fma-cuda.nsys-rep
-[2/8] [0%                          ] fma-cuda.sqlite[2/8] [1%                          ] fma-cuda.sqlite[2/8] [2%                          ] fma-cuda.sqlite[2/8] [3%                          ] fma-cuda.sqlite[2/8] [4%                          ] fma-cuda.sqlite[2/8] [5%                          ] fma-cuda.sqlite[2/8] [6%                          ] fma-cuda.sqlite[2/8] [7%                          ] fma-cuda.sqlite[2/8] [8%                          ] fma-cuda.sqlite[2/8] [9%                          ] fma-cuda.sqlite[2/8] [10%                         ] fma-cuda.sqlite[2/8] [11%                         ] fma-cuda.sqlite[2/8] [12%                         ] fma-cuda.sqlite[2/8] [13%                         ] fma-cuda.sqlite[2/8] [14%                         ] fma-cuda.sqlite[2/8] [=15%                        ] fma-cuda.sqlite[2/8] [=16%                        ] fma-cuda.sqlite[2/8] [=17%                        ] fma-cuda.sqlite[2/8] [==18%                       ] fma-cuda.sqlite[2/8] [==19%                       ] fma-cuda.sqlite[2/8] [==20%                       ] fma-cuda.sqlite[2/8] [==21%                       ] fma-cuda.sqlite[2/8] [===22%                      ] fma-cuda.sqlite[2/8] [===23%                      ] fma-cuda.sqlite[2/8] [===24%                      ] fma-cuda.sqlite[2/8] [====25%                     ] fma-cuda.sqlite[2/8] [====26%                     ] fma-cuda.sqlite[2/8] [====27%                     ] fma-cuda.sqlite[2/8] [====28%                     ] fma-cuda.sqlite[2/8] [=====29%                    ] fma-cuda.sqlite[2/8] [=====30%                    ] fma-cuda.sqlite[2/8] [=====31%                    ] fma-cuda.sqlite[2/8] [=====32%                    ] fma-cuda.sqlite[2/8] [======33%                   ] fma-cuda.sqlite[2/8] [======34%                   ] fma-cuda.sqlite[2/8] [======35%                   ] fma-cuda.sqlite[2/8] [=======36%                  ] fma-cuda.sqlite[2/8] [=======37%                  ] fma-cuda.sqlite[2/8] [=======38%                  ] fma-cuda.sqlite[2/8] [=======39%                  ] fma-cuda.sqlite[2/8] [========40%                 ] fma-cuda.sqlite[2/8] [========41%                 ] fma-cuda.sqlite[2/8] [========42%                 ] fma-cuda.sqlite[2/8] [=========43%                ] fma-cuda.sqlite[2/8] [=========44%                ] fma-cuda.sqlite[2/8] [=========45%                ] fma-cuda.sqlite[2/8] [=========46%                ] fma-cuda.sqlite[2/8] [==========47%               ] fma-cuda.sqlite[2/8] [==========48%               ] fma-cuda.sqlite[2/8] [==========49%               ] fma-cuda.sqlite[2/8] [===========50%              ] fma-cuda.sqlite[2/8] [===========51%              ] fma-cuda.sqlite[2/8] [===========52%              ] fma-cuda.sqlite[2/8] [===========53%              ] fma-cuda.sqlite[2/8] [============54%             ] fma-cuda.sqlite[2/8] [============55%             ] fma-cuda.sqlite[2/8] [============56%             ] fma-cuda.sqlite[2/8] [============57%             ] fma-cuda.sqlite[2/8] [=============58%            ] fma-cuda.sqlite[2/8] [=============59%            ] fma-cuda.sqlite[2/8] [=============60%            ] fma-cuda.sqlite[2/8] [==============61%           ] fma-cuda.sqlite[2/8] [==============62%           ] fma-cuda.sqlite[2/8] [==============63%           ] fma-cuda.sqlite[2/8] [==============64%           ] fma-cuda.sqlite[2/8] [===============65%          ] fma-cuda.sqlite[2/8] [===============66%          ] fma-cuda.sqlite[2/8] [===============67%          ] fma-cuda.sqlite[2/8] [================68%         ] fma-cuda.sqlite[2/8] [================69%         ] fma-cuda.sqlite[2/8] [================70%         ] fma-cuda.sqlite[2/8] [================71%         ] fma-cuda.sqlite[2/8] [=================72%        ] fma-cuda.sqlite[2/8] [=================73%        ] fma-cuda.sqlite[2/8] [=================74%        ] fma-cuda.sqlite[2/8] [==================75%       ] fma-cuda.sqlite[2/8] [==================76%       ] fma-cuda.sqlite[2/8] [==================77%       ] fma-cuda.sqlite[2/8] [==================78%       ] fma-cuda.sqlite[2/8] [===================79%      ] fma-cuda.sqlite[2/8] [===================80%      ] fma-cuda.sqlite[2/8] [===================81%      ] fma-cuda.sqlite[2/8] [===================82%      ] fma-cuda.sqlite[2/8] [====================83%     ] fma-cuda.sqlite[2/8] [====================84%     ] fma-cuda.sqlite[2/8] [====================85%     ] fma-cuda.sqlite[2/8] [=====================86%    ] fma-cuda.sqlite[2/8] [=====================87%    ] fma-cuda.sqlite[2/8] [=====================88%    ] fma-cuda.sqlite[2/8] [=====================89%    ] fma-cuda.sqlite[2/8] [======================90%   ] fma-cuda.sqlite[2/8] [======================91%   ] fma-cuda.sqlite[2/8] [======================92%   ] fma-cuda.sqlite[2/8] [=======================93%  ] fma-cuda.sqlite[2/8] [=======================94%  ] fma-cuda.sqlite[2/8] [=======================95%  ] fma-cuda.sqlite[2/8] [=======================96%  ] fma-cuda.sqlite[2/8] [========================97% ] fma-cuda.sqlite[2/8] [========================98% ] fma-cuda.sqlite[2/8] [========================99% ] fma-cuda.sqlite[2/8] [========================100%] fma-cuda.sqlite[2/8] [========================100%] fma-cuda.sqlite
-[3/8] Executing 'nvtx_sum' stats report
-[4/8] Executing 'osrt_sum' stats report
-
- Time (%)  Total Time (ns)  Num Calls   Avg (ns)    Med (ns)   Min (ns)  Max (ns)   StdDev (ns)           Name         
- --------  ---------------  ---------  ----------  ----------  --------  ---------  -----------  ----------------------
-     88.0       1588651230         27  58838934.4  96155132.0      1072  100193713   46218233.1  poll                  
-     11.2        201533607        570    353567.7     28582.5       260   34716671    1653555.3  ioctl                 
-      0.6         11444542         45    254323.2      3336.0      1353   11173037    1664678.2  fopen                 
-      0.1           942244         28     33651.6      7339.5      5631     473779      88549.1  mmap64                
-      0.0           681787          4    170446.8    163002.0    138638     217145      33184.7  pthread_create        
-      0.0           626848         18     34824.9      7464.5      2695     270553      77600.3  mmap                  
-      0.0           366855         10     36685.5     36954.0     23347      64239      11594.7  sem_timedwait         
-      0.0           248728         61      4077.5      3387.0       701      25842       3756.3  open64                
-      0.0           227175          1    227175.0    227175.0    227175     227175          0.0  pthread_cond_wait     
-      0.0            76932         29      2652.8        50.0        50      75351      13981.9  fgets                 
-      0.0            71559         42      1703.8      1032.0       451      10501       2080.6  fclose                
-      0.0            37024          7      5289.1      4279.0      1072      12816       4110.9  open                  
-      0.0            31111         12      2592.6      2354.5       581       5341       1333.2  write                 
-      0.0            30039         62       484.5       356.0       130       2535        446.9  fcntl                 
-      0.0            26212          2     13106.0     13106.0     12755      13457        496.4  fread                 
-      0.0            23729          5      4745.8      4239.0      2555       8958       2532.0  munmap                
-      0.0            22706         15      1513.7       701.0       471       6222       1722.5  read                  
-      0.0            22304          2     11152.0     11152.0      6392      15912       6731.7  socket                
-      0.0            20394         23       886.7        50.0        40      14199       3033.2  fwrite                
-      0.0            20051          3      6683.7      8838.0      1674       9539       4352.6  pipe2                 
-      0.0            18588          1     18588.0     18588.0     18588      18588          0.0  connect               
-      0.0            17928          7      2561.1        40.0        40      17616       6638.6  fflush                
-      0.0             5210          2      2605.0      2605.0      2074       3136        750.9  pthread_cond_broadcast
-      0.0             4840          3      1613.3      1533.0      1493       1814        174.9  fopen64               
-      0.0             3467          1      3467.0      3467.0      3467       3467          0.0  bind                  
-      0.0             3405          8       425.6       330.5       170        982        308.3  dup                   
-      0.0             1132          1      1132.0      1132.0      1132       1132          0.0  listen                
-      0.0              871          1       871.0       871.0       871        871          0.0  putc                  
-
-[5/8] Executing 'cuda_api_sum' stats report
-
- Time (%)  Total Time (ns)  Num Calls   Avg (ns)     Med (ns)    Min (ns)    Max (ns)   StdDev (ns)                Name               
- --------  ---------------  ---------  -----------  -----------  ---------  ----------  -----------  ---------------------------------
-     87.8       1404508012          2  702254006.0  702254006.0  254763429  1149744583  632847243.0  cudaDeviceSynchronize            
-     11.9        189895455          2   94947727.5   94947727.5    1000234   188895221  132861819.5  cudaMallocHost                   
-      0.2          2786784          1    2786784.0    2786784.0    2786784     2786784          0.0  cudaGetDeviceProperties_v2_v12000
-      0.1           919572          2     459786.0     459786.0     418348      501224      58602.2  cudaFreeHost                     
-      0.0           772167          4     193041.8     196985.0     174439      203758      12837.2  cudaMemcpy                       
-      0.0           421494          2     210747.0     210747.0     123808      297686     122950.3  cudaFree                         
-      0.0           321795          2     160897.5     160897.5     132586      189209      40038.5  cudaMalloc                       
-      0.0           181967         12      15163.9       3247.0       3046      137536      38569.6  cudaLaunchKernel                 
-      0.0             1372          1       1372.0       1372.0       1372        1372          0.0  cuModuleGetLoadingMode           
-
-[6/8] Executing 'cuda_gpu_kern_sum' stats report
-
- Time (%)  Total Time (ns)  Instances   Avg (ns)     Med (ns)    Min (ns)   Max (ns)   StdDev (ns)                     Name                   
- --------  ---------------  ---------  -----------  -----------  ---------  ---------  -----------  ------------------------------------------
-    100.0       1404351049         12  117029254.1  114961577.0  114928489  139674760    7131608.2  fma(unsigned long, const float *, float *)
-
-[7/8] Executing 'cuda_gpu_mem_time_sum' stats report
-
- Time (%)  Total Time (ns)  Count  Avg (ns)  Med (ns)  Min (ns)  Max (ns)  StdDev (ns)      Operation     
- --------  ---------------  -----  --------  --------  --------  --------  -----------  ------------------
-     51.6           344798      2  172399.0  172399.0    162271    182527      14323.2  [CUDA memcpy HtoD]
-     48.4           323390      2  161695.0  161695.0    161599    161791        135.8  [CUDA memcpy DtoH]
-
-[8/8] Executing 'cuda_gpu_mem_size_sum' stats report
-
- Total (MB)  Count  Avg (MB)  Med (MB)  Min (MB)  Max (MB)  StdDev (MB)      Operation     
- ----------  -----  --------  --------  --------  --------  -----------  ------------------
-      8.389      2     4.194     4.194     4.194     4.194        0.000  [CUDA memcpy DtoH]
-      8.389      2     4.194     4.194     4.194     4.194        0.000  [CUDA memcpy HtoD]
-
-Generated:
-    /tmp/fma-cuda.nsys-rep
-    /tmp/fma-cuda.sqlite
