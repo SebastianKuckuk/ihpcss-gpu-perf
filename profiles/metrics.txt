@@ -1,0 +1,356 @@
+smsp__warps_active.sum.peak_sustained
+ -smsp__warps_active.sum.peak_sustained
+smsp__warps_active.min.peak_sustained
+ -smsp__warps_active.min.peak_sustained
+smsp__warps_active.max.peak_sustained
+ -smsp__warps_active.max.peak_sustained
+smsp__warps_active.avg.peak_sustained
+ -smsp__warps_active.avg.peak_sustained
+smsp__maximum_warps_avg_per_active_cycle
+ -smsp__maximum_warps_avg_per_active_cycle
+smsp__cycles_elapsed.sum
+ -smsp__cycles_elapsed.sum
+smsp__cycles_elapsed.min
+ -smsp__cycles_elapsed.min
+smsp__cycles_elapsed.max
+ -smsp__cycles_elapsed.max
+smsp__cycles_elapsed.avg
+ -smsp__cycles_elapsed.avg
+smsp__cycles_active.sum
+ -smsp__cycles_active.sum
+smsp__cycles_active.min
+ -smsp__cycles_active.min
+smsp__cycles_active.max
+ -smsp__cycles_active.max
+smsp__cycles_active.avg
+ -smsp__cycles_active.avg
+sm__warps_active.sum.per_cycle_active
+ -sm__warps_active.sum.per_cycle_active
+sm__warps_active.sum.pct_of_peak_sustained_active
+ -sm__warps_active.sum.pct_of_peak_sustained_active
+sm__warps_active.min.per_cycle_active
+ -sm__warps_active.min.per_cycle_active
+sm__warps_active.min.pct_of_peak_sustained_active
+ -sm__warps_active.min.pct_of_peak_sustained_active
+sm__warps_active.max.per_cycle_active
+ -sm__warps_active.max.per_cycle_active
+sm__warps_active.max.pct_of_peak_sustained_active
+ -sm__warps_active.max.pct_of_peak_sustained_active
+sm__warps_active.avg.per_cycle_active
+ -sm__warps_active.avg.per_cycle_active
+sm__warps_active.avg.pct_of_peak_sustained_active
+ -sm__warps_active.avg.pct_of_peak_sustained_active
+sm__throughput.sum.pct_of_peak_sustained_elapsed
+ -sm__throughput.sum.pct_of_peak_sustained_elapsed
+sm__throughput.min.pct_of_peak_sustained_elapsed
+ -sm__throughput.min.pct_of_peak_sustained_elapsed
+sm__throughput.max.pct_of_peak_sustained_elapsed
+ -sm__throughput.max.pct_of_peak_sustained_elapsed
+sm__throughput.avg.pct_of_peak_sustained_elapsed
+ -sm__throughput.avg.pct_of_peak_sustained_elapsed
+sm__maximum_warps_per_active_cycle_pct
+ -sm__maximum_warps_per_active_cycle_pct
+sm__maximum_warps_avg_per_active_cycle
+ -sm__maximum_warps_avg_per_active_cycle
+sm__cycles_elapsed.sum
+ -sm__cycles_elapsed.sum
+sm__cycles_elapsed.min
+ -sm__cycles_elapsed.min
+sm__cycles_elapsed.max
+ -sm__cycles_elapsed.max
+sm__cycles_elapsed.avg
+ -sm__cycles_elapsed.avg
+sm__cycles_active.sum
+ -sm__cycles_active.sum
+sm__cycles_active.min
+ -sm__cycles_active.min
+sm__cycles_active.max
+ -sm__cycles_active.max
+sm__cycles_active.avg
+ -sm__cycles_active.avg
+mcc__cycles_elapsed.min
+ -mcc__cycles_elapsed.min
+mcc__cycles_elapsed.max
+ -mcc__cycles_elapsed.max
+mcc__cycles_elapsed.avg
+ -mcc__cycles_elapsed.avg
+mcc__cycles_active.sum
+ -mcc__cycles_active.sum
+mcc__cycles_active.min
+ -mcc__cycles_active.min
+mcc__cycles_active.max
+ -mcc__cycles_active.max
+mcc__cycles_active.avg
+ -mcc__cycles_active.avg
+lts__throughput.sum.pct_of_peak_sustained_elapsed
+ -lts__throughput.sum.pct_of_peak_sustained_elapsed
+lts__throughput.min.pct_of_peak_sustained_elapsed
+ -lts__throughput.min.pct_of_peak_sustained_elapsed
+lts__throughput.max.pct_of_peak_sustained_elapsed
+ -lts__throughput.max.pct_of_peak_sustained_elapsed
+lts__throughput.avg.pct_of_peak_sustained_elapsed
+ -lts__throughput.avg.pct_of_peak_sustained_elapsed
+lts__cycles_elapsed.sum
+ -lts__cycles_elapsed.sum
+lts__cycles_elapsed.min
+ -lts__cycles_elapsed.min
+lts__cycles_elapsed.max
+ -lts__cycles_elapsed.max
+lts__cycles_elapsed.avg
+ -lts__cycles_elapsed.avg
+lts__cycles_active.sum
+ -lts__cycles_active.sum
+lts__cycles_active.min
+ -lts__cycles_active.min
+lts__cycles_active.max
+ -lts__cycles_active.max
+lts__cycles_active.avg
+ -lts__cycles_active.avg
+launch__waves_per_multiprocessor
+ -launch__waves_per_multiprocessor
+launch__uses_green_context
+ -launch__uses_green_context
+launch__tpc_enabled
+ -launch__tpc_enabled
+launch__tpc_count
+ -launch__tpc_count
+launch__thread_count
+ -launch__thread_count
+launch__stack_size
+ -launch__stack_size
+launch__sm_count
+ -launch__sm_count
+launch__shared_mem_per_block_static
+ -launch__shared_mem_per_block_static
+launch__shared_mem_per_block_dynamic
+ -launch__shared_mem_per_block_dynamic
+launch__shared_mem_per_block_driver
+ -launch__shared_mem_per_block_driver
+launch__shared_mem_per_block
+ -launch__shared_mem_per_block
+launch__shared_mem_config_size
+ -launch__shared_mem_config_size
+launch__registers_per_thread
+ -launch__registers_per_thread
+launch__occupancy_per_shared_mem_size
+ -launch__occupancy_per_shared_mem_size
+launch__occupancy_per_register_count
+ -launch__occupancy_per_register_count
+launch__occupancy_per_block_size
+ -launch__occupancy_per_block_size
+launch__occupancy_limit_warps
+ -launch__occupancy_limit_warps
+launch__occupancy_limit_shared_mem
+ -launch__occupancy_limit_shared_mem
+launch__occupancy_limit_registers
+ -launch__occupancy_limit_registers
+launch__occupancy_limit_blocks
+ -launch__occupancy_limit_blocks
+launch__grid_size
+ -launch__grid_size
+launch__func_cache_config
+ -launch__func_cache_config
+launch__block_size
+ -launch__block_size
+l1tex__throughput.sum.pct_of_peak_sustained_active
+ -l1tex__throughput.sum.pct_of_peak_sustained_active
+l1tex__throughput.min.pct_of_peak_sustained_active
+ -l1tex__throughput.min.pct_of_peak_sustained_active
+l1tex__throughput.max.pct_of_peak_sustained_active
+ -l1tex__throughput.max.pct_of_peak_sustained_active
+l1tex__throughput.avg.pct_of_peak_sustained_active
+ -l1tex__throughput.avg.pct_of_peak_sustained_active
+l1tex__cycles_elapsed.sum
+ -l1tex__cycles_elapsed.sum
+l1tex__cycles_elapsed.min
+ -l1tex__cycles_elapsed.min
+l1tex__cycles_elapsed.max
+ -l1tex__cycles_elapsed.max
+l1tex__cycles_elapsed.avg
+ -l1tex__cycles_elapsed.avg
+l1tex__cycles_active.sum
+ -l1tex__cycles_active.sum
+l1tex__cycles_active.min
+ -l1tex__cycles_active.min
+l1tex__cycles_active.max
+ -l1tex__cycles_active.max
+l1tex__cycles_active.avg
+ -l1tex__cycles_active.avg
+gpu__time_duration.sum
+ -gpu__time_duration.sum
+gpu__time_duration.min
+ -gpu__time_duration.min
+gpu__time_duration.max
+ -gpu__time_duration.max
+gpu__time_duration.avg
+ -gpu__time_duration.avg
+gpu__dram_throughput.sum.pct_of_peak_sustained_elapsed
+ -gpu__dram_throughput.sum.pct_of_peak_sustained_elapsed
+gpu__dram_throughput.min.pct_of_peak_sustained_elapsed
+ -gpu__dram_throughput.min.pct_of_peak_sustained_elapsed
+gpu__dram_throughput.max.pct_of_peak_sustained_elapsed
+ -gpu__dram_throughput.max.pct_of_peak_sustained_elapsed
+gpu__compute_memory_throughput.sum.pct_of_peak_sustained_elapsed
+ -gpu__compute_memory_throughput.sum.pct_of_peak_sustained_elapsed
+gpu__compute_memory_throughput.min.pct_of_peak_sustained_elapsed
+ -gpu__compute_memory_throughput.min.pct_of_peak_sustained_elapsed
+gpu__compute_memory_throughput.max.pct_of_peak_sustained_elapsed
+ -gpu__compute_memory_throughput.max.pct_of_peak_sustained_elapsed
+gpu__compute_memory_throughput.avg.pct_of_peak_sustained_elapsed
+ -gpu__compute_memory_throughput.avg.pct_of_peak_sustained_elapsed
+gpc__cycles_elapsed.sum.per_second
+ -gpc__cycles_elapsed.sum.per_second
+gpc__cycles_elapsed.sum
+ -gpc__cycles_elapsed.sum
+gpc__cycles_elapsed.min.per_second
+ -gpc__cycles_elapsed.min.per_second
+gpc__cycles_elapsed.min
+ -gpc__cycles_elapsed.min
+gpc__cycles_elapsed.max.per_second
+ -gpc__cycles_elapsed.max.per_second
+gpc__cycles_elapsed.max
+ -gpc__cycles_elapsed.max
+gpc__cycles_elapsed.avg.per_second
+ -gpc__cycles_elapsed.avg.per_second
+gpc__cycles_elapsed.avg
+ -gpc__cycles_elapsed.avg
+dram__cycles_elapsed.sum.per_second
+ -dram__cycles_elapsed.sum.per_second
+dram__cycles_elapsed.min.per_second
+ -dram__cycles_elapsed.min.per_second
+dram__cycles_elapsed.min
+ -dram__cycles_elapsed.min
+dram__cycles_elapsed.max.per_second
+ -dram__cycles_elapsed.max.per_second
+dram__cycles_elapsed.max
+ -dram__cycles_elapsed.max
+dram__cycles_elapsed.avg
+ -dram__cycles_elapsed.avg
+dram__cycles_active.sum
+ -dram__cycles_active.sum
+dram__cycles_active.min
+ -dram__cycles_active.min
+dram__cycles_active.max
+ -dram__cycles_active.max
+dram__cycles_active.avg
+ -dram__cycles_active.avg
+derived__pct_occupancy_per_shared_mem_size
+ -derived__pct_occupancy_per_shared_mem_size
+derived__pct_occupancy_per_register_count
+ -derived__pct_occupancy_per_register_count
+derived__pct_occupancy_per_block_size
+ -derived__pct_occupancy_per_block_size
+breakdown:sm__throughput.sum.pct_of_peak_sustained_elapsed
+ -breakdown:sm__throughput.sum.pct_of_peak_sustained_elapsed
+breakdown:sm__throughput.min.pct_of_peak_sustained_elapsed
+ -breakdown:sm__throughput.min.pct_of_peak_sustained_elapsed
+breakdown:sm__throughput.max.pct_of_peak_sustained_elapsed
+ -breakdown:sm__throughput.max.pct_of_peak_sustained_elapsed
+breakdown:sm__throughput.avg.pct_of_peak_sustained_elapsed
+ -breakdown:sm__throughput.avg.pct_of_peak_sustained_elapsed
+breakdown:gpu__compute_memory_throughput.sum.pct_of_peak_sustained_elapsed
+ -breakdown:gpu__compute_memory_throughput.sum.pct_of_peak_sustained_elapsed
+breakdown:gpu__compute_memory_throughput.min.pct_of_peak_sustained_elapsed
+ -breakdown:gpu__compute_memory_throughput.min.pct_of_peak_sustained_elapsed
+breakdown:gpu__compute_memory_throughput.max.pct_of_peak_sustained_elapsed
+ -breakdown:gpu__compute_memory_throughput.max.pct_of_peak_sustained_elapsed
+breakdown:gpu__compute_memory_throughput.avg.pct_of_peak_sustained_elapsed
+ -breakdown:gpu__compute_memory_throughput.avg.pct_of_peak_sustained_elapsed
+launch__occupancy_per_cluster_size
+ -arch:90:121:launch__occupancy_per_cluster_size
+launch__occupancy_per_barrier_count
+ -arch:90:121:launch__occupancy_per_barrier_count
+launch__occupancy_limit_barriers
+ -arch:90:121:launch__occupancy_limit_barriers
+launch__occupancy_cluster_pct
+ -arch:90:121:launch__occupancy_cluster_pct
+launch__occupancy_cluster_gpu_pct
+ -arch:90:121:launch__occupancy_cluster_gpu_pct
+launch__cluster_size
+ -arch:90:121:launch__cluster_size
+launch__cluster_scheduling_policy
+ -arch:90:121:launch__cluster_scheduling_policy
+launch__cluster_max_potential_size
+ -arch:90:121:launch__cluster_max_potential_size
+launch__cluster_max_active
+ -arch:90:121:launch__cluster_max_active
+launch__barrier_count
+ -arch:90:121:launch__barrier_count
+derived__pct_occupancy_per_barrier_count
+ -arch:90:121:derived__pct_occupancy_per_barrier_count
+gpu__dram_throughput.avg.pct_of_peak_sustained_elapsed
+ -arch:120:120:gpu__dram_throughput.avg.pct_of_peak_sustained_elapsed
+ -arch:89:100:gpu__dram_throughput.avg.pct_of_peak_sustained_elapsed
+ -arch:75:86:gpu__dram_throughput.avg.pct_of_peak_sustained_elapsed
+ -arch:50:70:gpu__dram_throughput.avg.pct_of_peak_sustained_elapsed
+dram__cycles_elapsed.sum
+ -arch:120:120:dram__cycles_elapsed.sum
+ -arch:89:100:dram__cycles_elapsed.sum
+ -arch:75:86:dram__cycles_elapsed.sum
+ -arch:50:70:dram__cycles_elapsed.sum
+dram__cycles_elapsed.avg.per_second
+ -arch:120:120:dram__cycles_elapsed.avg.per_second
+ -arch:89:100:dram__cycles_elapsed.avg.per_second
+ -arch:75:86:dram__cycles_elapsed.avg.per_second
+ -arch:50:70:dram__cycles_elapsed.avg.per_second
+dram__cycles_active.sum
+ -arch:120:120:dram__cycles_active.sum
+ -arch:89:100:dram__cycles_active.sum
+ -arch:75:86:dram__cycles_active.sum
+ -arch:50:70:dram__cycles_active.sum
+dram__cycles_active.min
+ -arch:120:120:dram__cycles_active.min
+ -arch:89:100:dram__cycles_active.min
+ -arch:75:86:dram__cycles_active.min
+ -arch:50:70:dram__cycles_active.min
+dram__cycles_active.max
+ -arch:120:120:dram__cycles_active.max
+ -arch:89:100:dram__cycles_active.max
+ -arch:75:86:dram__cycles_active.max
+ -arch:50:70:dram__cycles_active.max
+dram__cycles_active.avg
+ -arch:120:120:dram__cycles_active.avg
+ -arch:89:100:dram__cycles_active.avg
+ -arch:75:86:dram__cycles_active.avg
+ -arch:50:70:dram__cycles_active.avg
+mcc__cycles_elapsed.sum
+ -arch:101:101:mcc__cycles_elapsed.sum
+ -arch:87:87:mcc__cycles_elapsed.sum
+mcc__cycles_active.sum
+ -arch:101:101:mcc__cycles_active.sum
+ -arch:87:87:mcc__cycles_active.sum
+mcc__cycles_active.min
+ -arch:101:101:mcc__cycles_active.min
+ -arch:87:87:mcc__cycles_active.min
+mcc__cycles_active.max
+ -arch:101:101:mcc__cycles_active.max
+ -arch:87:87:mcc__cycles_active.max
+mcc__cycles_active.avg
+ -arch:101:101:mcc__cycles_active.avg
+ -arch:87:87:mcc__cycles_active.avg
+launch__preferred_cluster_size
+ -arch:100:121:launch__preferred_cluster_size
+gr__workids_requested.sum
+ -arch:100:121:gr__workids_requested.sum
+gr__workids_requested.min
+ -arch:100:121:gr__workids_requested.min
+gr__workids_requested.max
+ -arch:100:121:gr__workids_requested.max
+gr__workids_requested.avg
+ -arch:100:121:gr__workids_requested.avg
+gr__workids_granted_as_ctas.sum
+ -arch:100:121:gr__workids_granted_as_ctas.sum
+gr__workids_granted_as_ctas.min
+ -arch:100:121:gr__workids_granted_as_ctas.min
+gr__workids_granted_as_ctas.max
+ -arch:100:121:gr__workids_granted_as_ctas.max
+gr__workids_granted_as_ctas.avg
+ -arch:100:121:gr__workids_granted_as_ctas.avg
+gr__workids_granted.sum
+ -arch:100:121:gr__workids_granted.sum
+gr__workids_granted.min
+ -arch:100:121:gr__workids_granted.min
+gr__workids_granted.max
+ -arch:100:121:gr__workids_granted.max
+gr__workids_granted.avg
+ -arch:100:121:gr__workids_granted.avg
