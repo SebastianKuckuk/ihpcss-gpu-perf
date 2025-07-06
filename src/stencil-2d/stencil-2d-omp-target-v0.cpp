@@ -3,7 +3,10 @@
 
 template <typename tpe>
 inline void stencil2d(const tpe *const __restrict__ u, tpe *__restrict__ uNew, size_t nx, size_t ny) {
-#pragma omp parallel for schedule(static)
+#pragma omp \
+    target \
+    teams distribute parallel for \
+    map(tofrom : u [0:nx * ny], uNew[0:nx * ny])
     for (size_t i1 = 1; i1 < ny - 1; ++i1) {
         for (size_t i0 = 1; i0 < nx - 1; ++i0) {
             uNew[i0 + i1 * nx] = 0.25 * u[i0 + i1 * nx + 1] + 0.25 * u[i0 + i1 * nx - 1] + 0.25 * u[i0 + nx * (i1 + 1)] + 0.25 * u[i0 + nx * (i1 - 1)];

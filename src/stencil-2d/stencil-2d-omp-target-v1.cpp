@@ -3,7 +3,10 @@
 
 template <typename tpe>
 inline void stencil2d(const tpe *const __restrict__ u, tpe *__restrict__ uNew, size_t nx, size_t ny) {
-#pragma omp parallel for schedule(static)
+#pragma omp \
+    target \
+    teams distribute parallel for \
+    map(tofrom : u [0:nx * ny], uNew[0:nx * ny])
     for (size_t i1 = 1; i1 < ny - 1; ++i1) {
         for (size_t i0 = 1; i0 < nx - 1; ++i0) {
             uNew[i0 + i1 * nx] = 0.25 * u[i0 + i1 * nx + 1] + 0.25 * u[i0 + i1 * nx - 1] + 0.25 * u[i0 + nx * (i1 + 1)] + 0.25 * u[i0 + nx * (i1 - 1)];
@@ -26,6 +29,8 @@ inline int realMain(int argc, char *argv[]) {
     // init
     initStencil2D(u, uNew, nx, ny);
 
+#pragma omp target enter data map(to : u [0:nx * ny], uNew [0:nx * ny])
+
     // warm-up
     for (size_t i = 0; i < nItWarmUp; ++i) {
         stencil2d(u, uNew, nx, ny);
@@ -43,6 +48,8 @@ inline int realMain(int argc, char *argv[]) {
     auto end = std::chrono::steady_clock::now();
 
     printStats<tpe>(end - start, nIt, nx * ny, tpeName, sizeof(tpe) + sizeof(tpe), 7);
+
+#pragma omp target exit data map(from : u [0:nx * ny], uNew [0:nx * ny])
 
     // check solution
     checkSolutionStencil2D(u, uNew, nx, ny, nIt + nItWarmUp);

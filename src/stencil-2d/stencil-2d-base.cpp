@@ -1,31 +1,33 @@
-#include <chrono>
-
-#include "../util.h"
 #include "stencil-2d-util.h"
 
-inline void jacobi(size_t nx, size_t ny, const tpe *__restrict__ u, tpe *__restrict__ uNew) {
-    for (size_t j = 1; j < ny - 1; ++j) {
-        for (size_t i = 1; i < nx - 1; ++i) {
-            uNew[j * nx + i] = 0.25 * (u[j * nx + i - 1] + u[j * nx + i + 1] + u[(j - 1) * nx + i] + u[(j + 1) * nx + i]);
+
+template <typename tpe>
+inline void stencil2d(const tpe *const __restrict__ u, tpe *__restrict__ uNew, size_t nx, size_t ny) {
+    for (size_t i1 = 1; i1 < ny - 1; ++i1) {
+        for (size_t i0 = 1; i0 < nx - 1; ++i0) {
+            uNew[i0 + i1 * nx] = 0.25 * u[i0 + i1 * nx + 1] + 0.25 * u[i0 + i1 * nx - 1] + 0.25 * u[i0 + nx * (i1 + 1)] + 0.25 * u[i0 + nx * (i1 - 1)];
         }
     }
 }
 
 
-int main(int argc, char *argv[]) {
+template <typename tpe>
+inline int realMain(int argc, char *argv[]) {
+    char *tpeName;
     size_t nx, ny, nItWarmUp, nIt;
-    parseCLA_2d(argc, argv, nx, ny, nItWarmUp, nIt);
+    parseCLA_2d(argc, argv, tpeName, nx, ny, nItWarmUp, nIt);
 
-    auto u = new tpe[nx * ny];
-    auto uNew = new tpe[nx * ny];
+    tpe *u;
+    u = new tpe[nx * ny];
+    tpe *uNew;
+    uNew = new tpe[nx * ny];
 
     // init
-    initStencil2D(u, nx, ny);
-    initStencil2D(uNew, nx, ny);
+    initStencil2D(u, uNew, nx, ny);
 
     // warm-up
     for (size_t i = 0; i < nItWarmUp; ++i) {
-        jacobi(nx, ny, u, uNew);
+        stencil2d(u, uNew, nx, ny);
         std::swap(u, uNew);
     }
 
@@ -33,19 +35,42 @@ int main(int argc, char *argv[]) {
     auto start = std::chrono::steady_clock::now();
 
     for (size_t i = 0; i < nIt; ++i) {
-        jacobi(nx, ny, u, uNew);
+        stencil2d(u, uNew, nx, ny);
         std::swap(u, uNew);
     }
 
     auto end = std::chrono::steady_clock::now();
 
-    printStats(end - start, nx * ny, nIt, 2 * sizeof(tpe), 4);
+    printStats<tpe>(end - start, nIt, nx * ny, tpeName, sizeof(tpe) + sizeof(tpe), 7);
 
     // check solution
-    checkSolutionStencil2D(u, nx, ny);
+    checkSolutionStencil2D(u, uNew, nx, ny, nIt + nItWarmUp);
 
     delete[] u;
     delete[] uNew;
 
     return 0;
+}
+
+
+int main(int argc, char *argv[]) {
+    if (argc < 2) {
+        std::cout << "Missing type specification" << std::endl;
+        return -1;
+    }
+
+    std::string tpeName(argv[1]);
+
+    if ("int" == tpeName)
+        return realMain<int>(argc, argv);
+    if ("long" == tpeName)
+        return realMain<long>(argc, argv);
+    if ("float" == tpeName)
+        return realMain<float>(argc, argv);
+    if ("double" == tpeName)
+        return realMain<double>(argc, argv);
+
+    std::cout << "Invalid type specification (" << argv[1] << "); supported types are" << std::endl;
+    std::cout << "  int, long, float, double" << std::endl;
+    return -1;
 }
