@@ -13,7 +13,7 @@ In any case, please follow the instructions for your OS.
 
 All course material is collected and available at [https://github.com/SebastianKuckuk/ihpcss-gpu-perf](https://github.com/SebastianKuckuk/ihpcss-gpu-perf) (this repository).
 
-The course material is organized as a [Jupyter notebook](doc/ihpcss-2025-gpu-analysis.ipynb).
+The course material is organized as a [Jupyter notebook](doc/ihpcss-2026-gpu-analysis.ipynb).
 You can view it on github, in VS Code and other IDEs, or set up a JupyterHub instance to run on a compute node of your local cluster (support for that may vary).
 
 ## Instructions
@@ -30,10 +30,10 @@ Then load required modules, e.g.
 ```bash
 module load nvhpc
 ```
-and start and interactive job, e.g.
+and start an interactive job, e.g.
 ```bash
 interact -p GPU-shared --gres=gpu:v100-32:1 --time 2:00:00
 ```
 
-You can copy files to your local machine via the usual mean (scp, etc.).
+You can copy files to your local machine via the usual means (scp, etc.).
 On Bridges, you can also use the [on-demand web interface](https://ondemand.bridges2.psc.edu/).
