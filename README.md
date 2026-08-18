@@ -11,7 +11,7 @@ In any case, please follow the instructions for your OS.
 
 ## Course Content
 
-All course material is collected and available at [https://github.com/NHR-FAU-Training/ihpcss-gpu-perf](https://github.com/NHR-FAU-Training/ihpcss-gpu-perf) (this repository).
+All course material is collected and available at [https://github.com/nhr-fau-training/ihpcss-gpu-perf](https://github.com/nhr-fau-training/ihpcss-gpu-perf) (this repository).
 
 The course material is organized as a [Jupyter notebook](doc/ihpcss-2026-gpu-analysis.ipynb).
 You can view it on github, in VS Code and other IDEs, or set up a JupyterHub instance to run on a compute node of your local cluster (support for that may vary).
@@ -20,7 +20,7 @@ You can view it on github, in VS Code and other IDEs, or set up a JupyterHub ins
 
 Clone the repository to *your notebook* to visualize the profiles locally.
 ```bash
-git clone https://github.com/NHR-FAU-Training/ihpcss-gpu-perf
+git clone https://github.com/nhr-fau-training/ihpcss-gpu-perf
 ```
 
 The next steps are only required in case you want to make your own measurements on a remote machine, e.g. on Bridges.
